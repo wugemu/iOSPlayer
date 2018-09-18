@@ -1,0 +1,132 @@
+
+/* Class = "UIButton"; normalTitle = "清晰度列表"; ObjectID = "1Lb-2h-Oz3"; */
+"1Lb-2h-Oz3.normalTitle" = "清晰度列表";
+
+/* Class = "UIButton"; normalTitle = "全部删除"; ObjectID = "6HZ-Z9-VtW"; */
+"6HZ-Z9-VtW.normalTitle" = "全部删除";
+
+/* Class = "UILabel"; text = "完整UI播放器基本功能演示"; ObjectID = "6dY-Ak-oJK"; */
+"6dY-Ak-oJK.text" = "完整UI播放器基本功能演示";
+
+/* Class = "UIButton"; normalTitle = "开始"; ObjectID = "8h6-hQ-fS9"; */
+"8h6-hQ-fS9.normalTitle" = "开始";
+
+/* Class = "UIBarButtonItem"; title = "返回"; ObjectID = "Auy-4T-Xrt"; */
+"Auy-4T-Xrt.title" = "返回";
+
+/* Class = "UIButton"; normalTitle = "停止"; ObjectID = "C9C-Tg-r0w"; */
+"C9C-Tg-r0w.normalTitle" = "停止";
+
+/* Class = "UIBarButtonItem"; title = "添加下载"; ObjectID = "CPu-Na-njz"; */
+"CPu-Na-njz.title" = "添加下载";
+
+/* Class = "UILabel"; text = "点播播放功能(vid+playAuth方式演示)"; ObjectID = "Chg-SI-rcv"; */
+"Chg-SI-rcv.text" = "点播播放功能(vid+playAuth方式演示)";
+
+/* Class = "UIButton"; normalTitle = "暂停"; ObjectID = "HCN-Bd-Swy"; */
+"HCN-Bd-Swy.normalTitle" = "暂停";
+
+/* Class = "UIViewController"; title = "多视频断点下载演示"; ObjectID = "HLO-j9-0R8"; */
+"HLO-j9-0R8.title" = "多视频断点下载演示";
+
+/* Class = "UILabel"; text = "文件大小："; ObjectID = "JdC-sV-YPr"; */
+"JdC-sV-YPr.text" = "文件大小：";
+
+/* Class = "UINavigationItem"; title = "多视频断点下载演示"; ObjectID = "JrE-sU-dDD"; */
+"JrE-sU-dDD.title" = "多视频断点下载演示";
+
+/* Class = "UILabel"; text = "vid:"; ObjectID = "KhN-jO-HLA"; */
+"KhN-jO-HLA.text" = "vid:";
+
+/* Class = "UIButton"; normalTitle = "开启播放界面"; ObjectID = "LlJ-pd-ruK"; */
+"LlJ-pd-ruK.normalTitle" = "开启播放界面";
+
+/* Class = "UILabel"; text = "亮度"; ObjectID = "Nrk-cd-cFv"; */
+"Nrk-cd-cFv.text" = "亮度";
+
+/* Class = "UIButton"; normalTitle = "检测播放地址工具"; ObjectID = "Qpc-vP-ZE7"; */
+"Qpc-vP-ZE7.normalTitle" = "检测播放地址工具";
+
+/* Class = "UIButton"; normalTitle = "停止"; ObjectID = "RgG-JQ-hJI"; */
+"RgG-JQ-hJI.normalTitle" = "停止";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "ShQ-fJ-dip"; */
+"ShQ-fJ-dip.text" = "00:00:00";
+
+/* Class = "UIViewController"; title = "输入视频信息"; ObjectID = "TLd-Fb-RLx"; */
+"TLd-Fb-RLx.title" = "输入视频信息";
+
+/* Class = "UICollectionViewController"; title = "多视频全屏滑动"; ObjectID = "TfE-RB-Whz"; */
+"TfE-RB-Whz.title" = "多视频全屏滑动";
+
+/* Class = "UIButton"; normalTitle = "播放"; ObjectID = "UrC-iv-Ush"; */
+"UrC-iv-Ush.normalTitle" = "播放";
+
+/* Class = "UILabel"; text = "静音"; ObjectID = "Y58-cm-YYC"; */
+"Y58-cm-YYC.text" = "静音";
+
+/* Class = "UILabel"; text = "音量"; ObjectID = "YHR-l9-1ju"; */
+"YHR-l9-1ju.text" = "音量";
+
+/* Class = "UIButton"; normalTitle = "重播"; ObjectID = "ZuF-rV-dTF"; */
+"ZuF-rV-dTF.normalTitle" = "重播";
+
+/* Class = "UILabel"; text = "playAuth:"; ObjectID = "aK9-M6-gy0"; */
+"aK9-M6-gy0.text" = "playAuth:";
+
+/* Class = "UIButton"; normalTitle = "删除"; ObjectID = "bek-A7-wXQ"; */
+"bek-A7-wXQ.normalTitle" = "删除";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "d4Q-7t-pTZ"; */
+"d4Q-7t-pTZ.text" = "00:00:00";
+
+/* Class = "UIButton"; normalTitle = "全部下载"; ObjectID = "e5n-WR-z6e"; */
+"e5n-WR-z6e.normalTitle" = "全部下载";
+
+/* Class = "UILabel"; text = "全屏滑动切换播放(url方式演示）"; ObjectID = "eWL-53-M8o"; */
+"eWL-53-M8o.text" = "全屏滑动切换播放(url方式演示）";
+
+/* Class = "UILabel"; text = "多视频列表自动播放(url方式演示）"; ObjectID = "ejj-Mg-PoN"; */
+"ejj-Mg-PoN.text" = "多视频列表自动播放(url方式演示）";
+
+/* Class = "UISegmentedControl"; j1j-j6-AyF.segmentTitles[0] = "原比例填充(fit)"; ObjectID = "j1j-j6-AyF"; */
+"j1j-j6-AyF.segmentTitles[0]" = "原比例填充(fit)";
+
+/* Class = "UISegmentedControl"; j1j-j6-AyF.segmentTitles[1] = "裁剪占满全屏(fill)"; ObjectID = "j1j-j6-AyF"; */
+"j1j-j6-AyF.segmentTitles[1]" = "裁剪占满全屏(fill)";
+
+/* Class = "UISegmentedControl"; jbr-VQ-jW6.segmentTitles[0] = " "; ObjectID = "jbr-VQ-jW6"; */
+"jbr-VQ-jW6.segmentTitles[0]" = " ";
+
+/* Class = "UISegmentedControl"; jbr-VQ-jW6.segmentTitles[1] = " "; ObjectID = "jbr-VQ-jW6"; */
+"jbr-VQ-jW6.segmentTitles[1]" = " ";
+
+/* Class = "UIButton"; normalTitle = "开始"; ObjectID = "jfe-8f-y3R"; */
+"jfe-8f-y3R.normalTitle" = "开始";
+
+/* Class = "UIBarButtonItem"; title = "日志"; ObjectID = "nJ9-Ga-RkQ"; */
+"nJ9-Ga-RkQ.title" = "日志";
+
+/* Class = "UINavigationItem"; title = "播放器场景列表"; ObjectID = "omh-kR-nun"; */
+"omh-kR-nun.title" = "播放器场景列表";
+
+/* Class = "UILabel"; text = "版本:v3.1.0"; ObjectID = "pwK-wi-0XT"; */
+"pwK-wi-0XT.text" = "版本:v3.1.0";
+
+/* Class = "UILabel"; text = "缩放模式"; ObjectID = "r0x-kw-y3F"; */
+"r0x-kw-y3F.text" = "缩放模式";
+
+/* Class = "UILabel"; text = "未下载"; ObjectID = "rdx-HN-54u"; */
+"rdx-HN-54u.text" = "未下载";
+
+/* Class = "UILabel"; text = "自动播放"; ObjectID = "u1X-uW-te2"; */
+"u1X-uW-te2.text" = "自动播放";
+
+/* Class = "UIBarButtonItem"; title = "返回"; ObjectID = "u46-sm-ywz"; */
+"u46-sm-ywz.title" = "返回";
+
+/* Class = "UILabel"; text = "多视频断点下载演示"; ObjectID = "zJR-k4-b0b"; */
+"zJR-k4-b0b.text" = "多视频断点下载演示";
+
+/* Class = "UIButton"; normalTitle = "继续"; ObjectID = "zZs-DA-DBd"; */
+"zZs-DA-DBd.normalTitle" = "继续";

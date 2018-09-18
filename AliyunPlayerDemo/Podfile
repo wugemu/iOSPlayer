@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+target "AliyunPlayerMediaDemo" do
+    pod 'BarrageRenderer', '2.1.0'
+    pod 'MLEmojiLabel', '1.0.0'
+end

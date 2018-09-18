@@ -1,0 +1,132 @@
+/* 
+  Localizable.strings
+  AliyunPlayerMediaDemo
+
+  Created by 王凯 on 2017/11/7.
+  Copyright © 2017年 com.alibaba.ALPlayerVodSDK. All rights reserved.
+*/
+"Scene List of player" = "Scene List of player";
+"Basic function demo of Vod by using vid and palyAuth" = "Basic function demo of Vod by using vid and palyAuth";
+"Autoplay demo of multi-video by using url" = "Autoplay demo of multi-video by using url";
+"Full screen slide play demo by using url" = "Full screen slide play demo by using url";
+"Breakpoints download demo" = "Breakpoints download demo";
+"Debug tools demo" = "Debug tools demo";
+"Full UI player demo" = "Full UI player demo";
+"version" = "version:v2.0.0";
+"vid" = "vid";
+"the vid fill in the text field by user or default setting" = "the vid fill in the text field by user or default setting";
+"playAuth" = "playAuth";
+//"play_auth_contents" = "the playAuth fill in the text field by user or default setting";
+"refresh" = "refresh";
+//"start_play_interface" = "Open interface of playing";
+"show_log" = "log";
+"buffer" = "buffer";
+"buffer_time" = "the current buffering time";
+"play_time" = "the current play time";
+"video_duration" = "video duration";
+"start_button" = "Start";
+"stop_button" = "Stop";
+"pause_button" = "Pause";
+"resume_button" = "Resume";
+"replay_button" = "Replay";
+"auto_play" = "Auto play";
+"mute_label" = "Mute";
+"volume_label" = "Volume";
+"brightness_label" = "Brightness";
+"scale_model" = "Scale model";
+"aspect_fit" = "Aspect fit";
+"aspect_fill" = "Aspect fill";
+"get_all_definition" = "Get all definition";
+"fd_definition" = "FD";
+"ld_definition" = "LD";
+"sd_definition" = "SD";
+"hd_definition" = "HD";
+"2k_definition" = "2K";
+"4k_definition" = "4K";
+"od_definition" = "OD";
+"add_video" = "Add";
+"start_download" = "Start";
+"stop_download" = "Stop";
+"delete_downloaded_video" = "Delete";
+"play_downloaded_video" = "Play";
+"download_status" = "Not downloaded";//include not downloaded、download progress、stopped、finished、waiting
+
+
+"download_status_unload" = "not downloaded";//包含未下载、下载进度、已停止、已完成、等待中
+"download_status_stop" = "stopped";
+"download_status_finish" = "finished";
+"download_status_waiting" = "waiting";
+
+"download_all" = "Download all";
+"delete_all" = "Delete all";
+"cancel_button" = "Cancel";
+"ok_button" = "OK";
+"ok_button1" = "OK";
+"error" = "ERROR";
+"loading_tips" = "Loading...";
+"time_out_tips" = "The network is unstable, please replay latter";
+"no_network_tips" = "The network is unreachable, please check network and replay latter";
+"load_error_tips" = "Loading error, please replay latter";
+"replay_tips" = "Please click replay button to watch again";
+"cell_network_tips" = "The current network is cell-network, whether to continue";
+
+
+"navigation_back" = "Back";
+
+"start_play" = "Start playing";
+"pause_play" = "Paused";
+"stop_play" = "Stopped";
+"finish_play" = "Video ended";
+"load_start" = "Start loading";
+"load_end" = "Video loaded";
+"get_loaddata" = "Data has fetched";
+"seek_to" = "Video has sought ";
+"start_firstFrame" = "First frame showed";
+
+
+"Error code" = "Error code";
+"Error message" = "Error message";
+"Tips" = "Tips";
+"Cannot repeatly add" = "Cannot repeatly add";
+"Unfinished last time" = "Unfinished last time";
+"Begun" = "Begun";
+"Stopped"="Stopped";
+"Finished" = "Finished";
+"Please request definition list first" = "Please request definition list first";
+
+//
+"naviBack" = "back";
+
+"log_start_play" = "Start";
+"log_stop_play" = "Stop";
+"log_pause_play" = "Pause";
+"log_resume_play" = "Resume";
+"log_re_play" = "Replay";
+
+"player_scene_list" = "Scene list of player";
+"vod_basic_function" = "Basic function demo of Vod";
+"live_basic_function" = "Basic function demo of live";
+"multiple_video_auto_play" = "Autoplay demo of multi-video";
+"debug_tools" = "Debug tools demo";
+"ui_player" = "Basic UI Demo";
+
+
+"copyright_information" = "Copyright information";
+"copyright_license" = "Ⓒ2017 Copyright by Alibaba Cloud, Alibaba Group All rights reserved";
+
+"notreachable" = "Unreachable";
+"clicked_ok" = "OK";
+"clear_message" = "Clear";
+"network" = "The current network is cell-network, whether to continue?";
+"videoName" = "Default url";
+
+
+"alert_show_title_errortitle" = "Error";
+"alert_show_title_cancel" = "cancel";
+"alert_show_title_buttontitles" = "reconnect";
+"play_error" = "Error";
+"play_finish" = "playback is complete！";
+"manual_input_url" = "Enter url manually";
+"input_url_invalid" = "input url invalid";
+"input_playurl" = "Enter url manually";
+"input_url" = "Enter url manually";

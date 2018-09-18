@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C6CAE1E7E831FE7F298F8E599B7838C5D704FCB4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C6CAE1E7E831FE7F298F8E599B7838C5D704FCB4" : 9223372036854775807,
+    "960DEB0B75897F19A8DDD3984056C1A1F08000E8" : 9223372036854775807,
+    "A6808A827B267B48818CD60CB421F7CB187D1377" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3EF986FE-EF54-4077-A332-189A7B7F4874",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C6CAE1E7E831FE7F298F8E599B7838C5D704FCB4" : "iOS\/",
+    "960DEB0B75897F19A8DDD3984056C1A1F08000E8" : "..\/sdk\/iOS",
+    "A6808A827B267B48818CD60CB421F7CB187D1377" : "..\/..\/AliyunVideoPlayer"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AliyunPlayerMediaDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AliyunPlayerMediaDemo\/AliyunPlayerMediaDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/gitlab.alibaba-inc.com\/AliyunVideoClient\/SaasVideoPlayer_ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "960DEB0B75897F19A8DDD3984056C1A1F08000E8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/gitlab.alibaba-inc.com\/AliyunVideoClient\/AliyunVideoPlayer",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A6808A827B267B48818CD60CB421F7CB187D1377"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/gitlab.alibaba-inc.com\/AliyunVideoClient\/SaasVideoPlayer_demo_iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C6CAE1E7E831FE7F298F8E599B7838C5D704FCB4"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+
+/* Class = "UISegmentedControl"; 1LI-pD-rje.segmentTitles[0] = "无镜像"; ObjectID = "1LI-pD-rje"; */
+"1LI-pD-rje.segmentTitles[0]" = "无镜像";
+
+/* Class = "UISegmentedControl"; 1LI-pD-rje.segmentTitles[1] = "水平镜像"; ObjectID = "1LI-pD-rje"; */
+"1LI-pD-rje.segmentTitles[1]" = "水平镜像";
+
+/* Class = "UISegmentedControl"; 1LI-pD-rje.segmentTitles[2] = "垂直镜像"; ObjectID = "1LI-pD-rje"; */
+"1LI-pD-rje.segmentTitles[2]" = "垂直镜像";
+
+/* Class = "UISegmentedControl"; 1p7-hp-Wrk.segmentTitles[0] = "原比例填充(fit)"; ObjectID = "1p7-hp-Wrk"; */
+"1p7-hp-Wrk.segmentTitles[0]" = "原比例填充(fit)";
+
+/* Class = "UISegmentedControl"; 1p7-hp-Wrk.segmentTitles[1] = "裁剪占满全屏(fill)"; ObjectID = "1p7-hp-Wrk"; */
+"1p7-hp-Wrk.segmentTitles[1]" = "裁剪占满全屏(fill)";
+
+/* Class = "UILabel"; text = "最大丢帧缓存区"; ObjectID = "3tH-HR-tWg"; */
+"3tH-HR-tWg.text" = "最大丢帧缓存区";
+
+/* Class = "UIButton"; normalTitle = "开始直播"; ObjectID = "43E-vh-NiO"; */
+"43E-vh-NiO.normalTitle" = "开始直播";
+
+/* Class = "UISegmentedControl"; 5je-eo-uKA.segmentTitles[0] = "0.5倍"; ObjectID = "5je-eo-uKA"; */
+"5je-eo-uKA.segmentTitles[0]" = "0.5倍";
+
+/* Class = "UISegmentedControl"; 5je-eo-uKA.segmentTitles[1] = "1倍"; ObjectID = "5je-eo-uKA"; */
+"5je-eo-uKA.segmentTitles[1]" = "1倍";
+
+/* Class = "UISegmentedControl"; 5je-eo-uKA.segmentTitles[2] = "1.5倍"; ObjectID = "5je-eo-uKA"; */
+"5je-eo-uKA.segmentTitles[2]" = "1.5倍";
+
+/* Class = "UISegmentedControl"; 5je-eo-uKA.segmentTitles[3] = "2倍"; ObjectID = "5je-eo-uKA"; */
+"5je-eo-uKA.segmentTitles[3]" = "2倍";
+
+/* Class = "UILabel"; text = "变速模式"; ObjectID = "6sb-hE-II7"; */
+"6sb-hE-II7.text" = "变速模式";
+
+/* Class = "UISegmentedControl"; 7uh-RE-aIb.segmentTitles[0] = "0°"; ObjectID = "7uh-RE-aIb"; */
+"7uh-RE-aIb.segmentTitles[0]" = "0°";
+
+/* Class = "UISegmentedControl"; 7uh-RE-aIb.segmentTitles[1] = "90°"; ObjectID = "7uh-RE-aIb"; */
+"7uh-RE-aIb.segmentTitles[1]" = "90°";
+
+/* Class = "UISegmentedControl"; 7uh-RE-aIb.segmentTitles[2] = "180°"; ObjectID = "7uh-RE-aIb"; */
+"7uh-RE-aIb.segmentTitles[2]" = "180°";
+
+/* Class = "UISegmentedControl"; 7uh-RE-aIb.segmentTitles[3] = "270°"; ObjectID = "7uh-RE-aIb"; */
+"7uh-RE-aIb.segmentTitles[3]" = "270°";
+
+/* Class = "UIButton"; normalTitle = "重播"; ObjectID = "9bu-2n-IM3"; */
+"9bu-2n-IM3.normalTitle" = "重播";
+
+/* Class = "UILabel"; text = "音量"; ObjectID = "B8n-yC-26m"; */
+"B8n-yC-26m.text" = "音量";
+
+/* Class = "UILabel"; text = "毫秒"; ObjectID = "BQp-I9-5rK"; */
+"BQp-I9-5rK.text" = "毫秒";
+
+/* Class = "UILabel"; text = "静音"; ObjectID = "BzP-It-9cu"; */
+"BzP-It-9cu.text" = "静音";
+
+/* Class = "UILabel"; text = "自动播放"; ObjectID = "Cuh-dU-lPq"; */
+"Cuh-dU-lPq.text" = "自动播放";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "DIJ-S9-3gI"; */
+"DIJ-S9-3gI.text" = "00:00:00";
+
+/* Class = "UISegmentedControl"; E5y-Oa-oEe.segmentTitles[0] = "原比例填充(fit)"; ObjectID = "E5y-Oa-oEe"; */
+"E5y-Oa-oEe.segmentTitles[0]" = "原比例填充(fit)";
+
+/* Class = "UISegmentedControl"; E5y-Oa-oEe.segmentTitles[1] = "裁剪占满全屏(fill)"; ObjectID = "E5y-Oa-oEe"; */
+"E5y-Oa-oEe.segmentTitles[1]" = "裁剪占满全屏(fill)";
+
+/* Class = "UIButton"; normalTitle = "停止"; ObjectID = "ETU-b3-pQv"; */
+"ETU-b3-pQv.normalTitle" = "停止";
+
+/* Class = "UISegmentedControl"; Evf-TH-4q7.segmentTitles[0] = "0°"; ObjectID = "Evf-TH-4q7"; */
+"Evf-TH-4q7.segmentTitles[0]" = "0°";
+
+/* Class = "UISegmentedControl"; Evf-TH-4q7.segmentTitles[1] = "90°"; ObjectID = "Evf-TH-4q7"; */
+"Evf-TH-4q7.segmentTitles[1]" = "90°";
+
+/* Class = "UISegmentedControl"; Evf-TH-4q7.segmentTitles[2] = "180°"; ObjectID = "Evf-TH-4q7"; */
+"Evf-TH-4q7.segmentTitles[2]" = "180°";
+
+/* Class = "UISegmentedControl"; Evf-TH-4q7.segmentTitles[3] = "270°"; ObjectID = "Evf-TH-4q7"; */
+"Evf-TH-4q7.segmentTitles[3]" = "270°";
+
+/* Class = "UILabel"; text = "旋转角度"; ObjectID = "Evt-1b-Hft"; */
+"Evt-1b-Hft.text" = "旋转角度";
+
+/* Class = "UILabel"; text = "静音"; ObjectID = "F6h-BV-OX8"; */
+"F6h-BV-OX8.text" = "静音";
+
+/* Class = "UILabel"; text = "缩放模式"; ObjectID = "Fxy-gg-umn"; */
+"Fxy-gg-umn.text" = "缩放模式";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "GCM-pe-MW6"; */
+"GCM-pe-MW6.text" = "00:00:00";
+
+/* Class = "UIButton"; normalTitle = "继续"; ObjectID = "JNG-ol-ryr"; */
+"JNG-ol-ryr.normalTitle" = "继续";
+
+/* Class = "UILabel"; text = "亮度"; ObjectID = "KBI-Sw-caa"; */
+"KBI-Sw-caa.text" = "亮度";
+
+/* Class = "UISegmentedControl"; LQR-1d-R8P.segmentTitles[0] = "无镜像"; ObjectID = "LQR-1d-R8P"; */
+"LQR-1d-R8P.segmentTitles[0]" = "无镜像";
+
+/* Class = "UISegmentedControl"; LQR-1d-R8P.segmentTitles[1] = "水平镜像"; ObjectID = "LQR-1d-R8P"; */
+"LQR-1d-R8P.segmentTitles[1]" = "水平镜像";
+
+/* Class = "UISegmentedControl"; LQR-1d-R8P.segmentTitles[2] = "垂直镜像"; ObjectID = "LQR-1d-R8P"; */
+"LQR-1d-R8P.segmentTitles[2]" = "垂直镜像";
+
+/* Class = "UIButton"; normalTitle = "重播"; ObjectID = "M5F-wT-PaK"; */
+"M5F-wT-PaK.normalTitle" = "重播";
+
+/* Class = "UIButton"; normalTitle = "开始"; ObjectID = "MYK-Ix-K5T"; */
+"MYK-Ix-K5T.normalTitle" = "开始";
+
+/* Class = "UILabel"; text = "音量"; ObjectID = "Men-GU-j82"; */
+"Men-GU-j82.text" = "音量";
+
+/* Class = "UISegmentedControl"; MqZ-Ww-fYe.segmentTitles[0] = "原比例填充(fit)"; ObjectID = "MqZ-Ww-fYe"; */
+"MqZ-Ww-fYe.segmentTitles[0]" = "原比例填充(fit)";
+
+/* Class = "UISegmentedControl"; MqZ-Ww-fYe.segmentTitles[1] = "裁剪占满全屏(fill)"; ObjectID = "MqZ-Ww-fYe"; */
+"MqZ-Ww-fYe.segmentTitles[1]" = "裁剪占满全屏(fill)";
+
+/* Class = "UILabel"; text = "亮度"; ObjectID = "N06-Wb-Gau"; */
+"N06-Wb-Gau.text" = "亮度";
+
+/* Class = "UILabel"; text = "音量"; ObjectID = "NQ8-WA-tfe"; */
+"NQ8-WA-tfe.text" = "音量";
+
+/* Class = "UIButton"; normalTitle = "开始"; ObjectID = "NtL-mj-9jq"; */
+"NtL-mj-9jq.normalTitle" = "开始";
+
+/* Class = "UILabel"; text = "镜像"; ObjectID = "Of7-Ix-vZq"; */
+"Of7-Ix-vZq.text" = "镜像";
+
+/* Class = "UILabel"; text = "镜像"; ObjectID = "P7d-ay-fLh"; */
+"P7d-ay-fLh.text" = "镜像";
+
+/* Class = "UILabel"; text = "静音"; ObjectID = "PE4-f2-28C"; */
+"PE4-f2-28C.text" = "静音";
+
+/* Class = "UILabel"; text = "缩放模式"; ObjectID = "QBd-5Y-tQj"; */
+"QBd-5Y-tQj.text" = "缩放模式";
+
+/* Class = "UILabel"; text = "变速模式"; ObjectID = "S4z-Vc-RES"; */
+"S4z-Vc-RES.text" = "变速模式";
+
+/* Class = "UILabel"; text = "buffer:00:00:00"; ObjectID = "TpR-Fc-Sls"; */
+"TpR-Fc-Sls.text" = "buffer:00:00:00";
+
+/* Class = "UISegmentedControl"; Ucp-rN-q71.segmentTitles[0] = "正常"; ObjectID = "Ucp-rN-q71"; */
+"Ucp-rN-q71.segmentTitles[0]" = "正常";
+
+/* Class = "UISegmentedControl"; Ucp-rN-q71.segmentTitles[1] = "1.25倍"; ObjectID = "Ucp-rN-q71"; */
+"Ucp-rN-q71.segmentTitles[1]" = "1.25倍";
+
+/* Class = "UISegmentedControl"; Ucp-rN-q71.segmentTitles[2] = "1.5倍"; ObjectID = "Ucp-rN-q71"; */
+"Ucp-rN-q71.segmentTitles[2]" = "1.5倍";
+
+/* Class = "UISegmentedControl"; Ucp-rN-q71.segmentTitles[3] = "2倍"; ObjectID = "Ucp-rN-q71"; */
+"Ucp-rN-q71.segmentTitles[3]" = "2倍";
+
+/* Class = "UIButton"; normalTitle = "清晰度列表"; ObjectID = "VIM-o6-U5S"; */
+"VIM-o6-U5S.normalTitle" = "清晰度列表";
+
+/* Class = "UILabel"; text = "亮度"; ObjectID = "ZEK-u1-p81"; */
+"ZEK-u1-p81.text" = "亮度";
+
+/* Class = "UISegmentedControl"; aEJ-Qm-3ny.segmentTitles[0] = "0°"; ObjectID = "aEJ-Qm-3ny"; */
+"aEJ-Qm-3ny.segmentTitles[0]" = "0°";
+
+/* Class = "UISegmentedControl"; aEJ-Qm-3ny.segmentTitles[1] = "90°"; ObjectID = "aEJ-Qm-3ny"; */
+"aEJ-Qm-3ny.segmentTitles[1]" = "90°";
+
+/* Class = "UISegmentedControl"; aEJ-Qm-3ny.segmentTitles[2] = "180°"; ObjectID = "aEJ-Qm-3ny"; */
+"aEJ-Qm-3ny.segmentTitles[2]" = "180°";
+
+/* Class = "UISegmentedControl"; aEJ-Qm-3ny.segmentTitles[3] = "270°"; ObjectID = "aEJ-Qm-3ny"; */
+"aEJ-Qm-3ny.segmentTitles[3]" = "270°";
+
+/* Class = "UIButton"; normalTitle = "停止直播"; ObjectID = "aGd-02-mG7"; */
+"aGd-02-mG7.normalTitle" = "停止直播";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "atQ-Bg-HGA"; */
+"atQ-Bg-HGA.text" = "00:00:00";
+
+/* Class = "UILabel"; text = "镜像"; ObjectID = "b8p-b5-NXV"; */
+"b8p-b5-NXV.text" = "镜像";
+
+/* Class = "UILabel"; text = "旋转角度"; ObjectID = "bHI-BT-H9c"; */
+"bHI-BT-H9c.text" = "旋转角度";
+
+/* Class = "UIButton"; normalTitle = "截图"; ObjectID = "f28-6C-fyP"; */
+"f28-6C-fyP.normalTitle" = "截图";
+
+/* Class = "UIButton"; normalTitle = "检测播放地址工具"; ObjectID = "f9v-1f-nY0"; */
+"f9v-1f-nY0.normalTitle" = "检测播放地址工具";
+
+/* Class = "UIButton"; normalTitle = "暂停"; ObjectID = "gnm-is-Jfj"; */
+"gnm-is-Jfj.normalTitle" = "暂停";
+
+/* Class = "UILabel"; text = "缩放模式"; ObjectID = "jtQ-0J-STv"; */
+"jtQ-0J-STv.text" = "缩放模式";
+
+/* Class = "UILabel"; text = "旋转角度"; ObjectID = "m6B-aZ-jbk"; */
+"m6B-aZ-jbk.text" = "旋转角度";
+
+/* Class = "UIButton"; normalTitle = "继续"; ObjectID = "mcg-pf-L1h"; */
+"mcg-pf-L1h.normalTitle" = "继续";
+
+/* Class = "UISegmentedControl"; ok2-pP-aQt.segmentTitles[0] = "无镜像"; ObjectID = "ok2-pP-aQt"; */
+"ok2-pP-aQt.segmentTitles[0]" = "无镜像";
+
+/* Class = "UISegmentedControl"; ok2-pP-aQt.segmentTitles[1] = "水平镜像"; ObjectID = "ok2-pP-aQt"; */
+"ok2-pP-aQt.segmentTitles[1]" = "水平镜像";
+
+/* Class = "UISegmentedControl"; ok2-pP-aQt.segmentTitles[2] = "垂直镜像"; ObjectID = "ok2-pP-aQt"; */
+"ok2-pP-aQt.segmentTitles[2]" = "垂直镜像";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "ora-TQ-YhT"; */
+"ora-TQ-YhT.text" = "00:00:00";
+
+/* Class = "UIButton"; normalTitle = "暂停"; ObjectID = "sV0-1n-adD"; */
+"sV0-1n-adD.normalTitle" = "暂停";
+
+/* Class = "UIButton"; normalTitle = "停止"; ObjectID = "xZt-sv-0kt"; */
+"xZt-sv-0kt.normalTitle" = "停止";
+
+/* Class = "UISegmentedControl"; ydR-oR-nUO.segmentTitles[0] = " "; ObjectID = "ydR-oR-nUO"; */
+"ydR-oR-nUO.segmentTitles[0]" = " ";
+
+/* Class = "UISegmentedControl"; ydR-oR-nUO.segmentTitles[1] = " "; ObjectID = "ydR-oR-nUO"; */
+"ydR-oR-nUO.segmentTitles[1]" = " ";
+
+/* Class = "UITextField"; text = "8000"; ObjectID = "zWQ-S4-5gV"; */
+"zWQ-S4-5gV.text" = "8000";

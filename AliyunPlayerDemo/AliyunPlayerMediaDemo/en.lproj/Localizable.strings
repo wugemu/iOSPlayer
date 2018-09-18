@@ -1,0 +1,211 @@
+/* 
+  Localizable.strings
+  AliyunPlayerMediaDemo
+
+  Created by 王凯 on 2017/11/7.
+  Copyright © 2017年 com.alibaba.ALPlayerVodSDK. All rights reserved.
+*/
+
+
+"Player Demo"="Player Demo";
+
+"Basic player"="Basic player";
+"Basic function demo of Vod" = "Basic function demo of Vod";
+"Basic function demo of live" = "Basic function demo of live";
+
+"Advanced player" = "Advanced player";
+"Basic function demo of Vod by using vid and sts" = "Basic function demo of Vod by using vid and palyAuth";
+"Autoplay demo of multi-video by using url" = "Autoplay demo of multi-video by using url";
+"Full screen slide play demo by using url" = "Full screen slide play demo by using url";
+"Breakpoints download demo" = "Breakpoints download demo";
+
+"UI player" = "UI player";
+"Debug tools demo" = "Debug tools demo";
+"Copyright information" = "Copyright information";
+
+
+"Scene List of player" = "Scene List of player";
+"Full UI player demo" = "Full UI player demo";
+
+
+"version" = "version:v3.4.1";
+
+"vid" = "vid";
+"the vid fill in the text field by user or default setting" = "the vid fill in the text field by user or default setting";
+"playAuth" = "playAuth";
+"play_auth_contents" = "the playAuth fill in the text field by user or default setting";
+
+"refresh" = "refresh";
+"Open interface of playing" = "Open interface of playing";
+
+"Back" = "Back";
+//"navigation_back" = "Back";
+//"naviBack" = "back";
+"Log" = "Log";
+
+//"buffer" = "buffer";
+//"buffer_time" = "the current buffering time";
+//"play_time" = "the current play time";
+
+//"video_duration" = "video duration";
+//"start_button" = "Start";
+//"stop_button" = "Stop";
+//"pause_button" = "Pause";
+//"resume_button" = "Resume";
+//"replay_button" = "Replay";
+//"auto_play" = "Auto play";
+//"mute_label" = "Mute";
+//"volume_label" = "Volume";
+//"brightness_label" = "Brightness";
+//"scale_model" = "Scale model";
+//"aspect_fit" = "Aspect fit";
+//"aspect_fill" = "Aspect fill";
+"Get all definition" = "Get all definition";
+"FD" = "FD";
+"LD" = "LD";
+"SD" = "SD";
+"HD" = "HD";
+"2K" = "2K";
+"4K" = "4K";
+"OD" = "OD";
+"add_video" = "Add";
+"start_download" = "Start";
+"stop_download" = "Stop";
+"delete_downloaded_video" = "Delete";
+"play_downloaded_video" = "Play";
+"download_status" = "Not downloaded";//include not downloaded、download progress、stopped、finished、waiting
+
+
+"download_status_unload" = "not downloaded";//包含未下载、下载进度、已停止、已完成、等待中
+"download_status_stop" = "stopped";
+"download_status_finish" = "finished";
+"download_status_waiting" = "waiting";
+
+"Download all" = "Download all";
+"Delete all" = "Delete all";
+"Cancel" = "Cancel";
+"ok_button" = "OK";
+"ok_button1" = "OK";
+"error" = "ERROR";
+
+
+"start_play" = "Start playing";
+"pause_play" = "Paused";
+"stop_play" = "Stopped";
+"finish_play" = "Video ended";
+"load_start" = "Start loading";
+"load_end" = "Video loaded";
+"get_loaddata" = "Data has fetched";
+"seek_to" = "Video has sought ";
+"start_firstFrame" = "First frame showed";
+
+
+"Error code" = "Error code";
+"Error message" = "Error message";
+"Tips" = "Tips";
+"Cannot repeatly add" = "Cannot repeatly add";
+"Unfinished last time" = "Unfinished last time";
+"Begun" = "Begun";
+"Stopped"="Stopped";
+"Finished" = "Finished";
+"Please request definition list first" = "Please request definition list first";
+"video has downloaded" = "video has downloaded";
+
+
+//
+
+
+"log_start_play" = "Start";
+"log_stop_play" = "Stop";
+"log_pause_play" = "Pause";
+"log_resume_play" = "Resume";
+"log_re_play" = "Replay";
+
+
+//"player_scene_list" = "Basic player";
+
+//"multiple_video_auto_play" = "Autoplay demo of multi-video";
+//"debug_tools" = "Debug tools demo";
+//"ui_player" = "Basic UI Demo";
+
+"copyright_information" = "Copyright information";
+"copyright_license" = "Ⓒ2017 Copyright by Alibaba Cloud, Alibaba Group All rights reserved";
+
+"notreachable" = "Unreachable";
+"clicked_ok" = "OK";
+"clear_message" = "Clear";
+"network" = "The current network is cell-network, whether to continue?";
+"videoName" = "Default url";
+
+
+"alert_show_title_errortitle" = "Error";
+"alert_show_title_cancel" = "cancel";
+"alert_show_title_buttontitles" = "reconnect";
+"play_error" = "Error";
+"play_finish" = "playback is complete！";
+"manual_input_url" = "Enter url manually";
+"input_url_invalid" = "input url invalid";
+"input_playurl" = "Enter url manually";
+"input_url" = "Enter url manually";
+"input playurl" = "input playurl";
+"input mediaPlayer" = "input mediaPlayer";
+
+"For mobile networks, continue to download？" = "For mobile networks, Continue downloading";
+
+
+
+"onVideoPrepared" = "onVideoPrepared";
+"onVideoFirstFrame" = "onVideoFirstFrame";
+"OnVideoFinish" = "OnVideoFinish";
+"OnSeekDone" = "OnSeekDone";
+"OnStartCache" = "OnStartCache";
+"OnEndCache" = "OnEndCache";
+"OnVideoStop" = "onVideoStop";
+"onCircleStart" = "onCircleStart";
+"play failed,error code is" = "play failed,error code is";
+"pause failed,error code is" = "pause failed,error code is";
+"resume failed,error code is" = "resume failed,error code is";
+"stop failed,error code is" = "stop failed,error code is";
+"prepare failed,error code is" = "prepare failed,error code is";
+"reset failed,error code is" = "reset failed,error code is";
+
+//连续播放演示
+"Continuous play demo" = "Continuous play demo";
+"buffer" = "buffer";
+"00:00:00"="00:00:00";
+"con_play" = "Play";
+"con_pause" = "Pause";
+"con_resume" = "Resume";
+"con_stop" = "Stop";
+"con_replay" = "Replay";
+"check_tools" = "test video url by debug tools";
+
+//直播时移
+"Time-shift of live player Demo" = "Time-shift of live player Demo";
+"Mute" = "Mute";
+"Volume" = "Volume";
+"Brightness" = "Brightness";
+"DisplayMode" = "DisplayMode";
+"Aspect fit" = "Aspect fit";
+"Aspect fill" = "Aspect fill";
+"Drop buffer duration" = "Drop buffer duration";
+"ms" = "ms";
+"live" = "live";
+
+//答题直播间
+"answer room" = "Answer room";
+"start answer" = "start answer";
+"Playback settings" = "Playback settings";
+"live room" = "live room";
+"popQuestion" = "popQuestion";
+"popAnswer" = "popAnswer";
+"CLEAR" = "CLEAR";
+"LOG_OK" = "OK";
+"Obsolete" = "Obsolete";
+"Bingo" = "Bingo";
+"Wrong" = "Wrong";
+
+
+
+
+

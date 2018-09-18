@@ -1,0 +1,1363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094B8F1D1F8DF5CA00424A41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094B8F1C1F8DF5CA00424A41 /* AppDelegate.swift */; };
+		094B8F221F8DF5CA00424A41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094B8F201F8DF5CA00424A41 /* Main.storyboard */; };
+		094B8F241F8DF5CA00424A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094B8F231F8DF5CA00424A41 /* Assets.xcassets */; };
+		094B8F271F8DF5CA00424A41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094B8F251F8DF5CA00424A41 /* LaunchScreen.storyboard */; };
+		094B8F321F8DF60A00424A41 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E39A1F417DE00084EF9B /* libz.tbd */; };
+		094B8F331F8DF61F00424A41 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E3981F417DD60084EF9B /* libiconv.tbd */; };
+		094B8F341F8DF63200424A41 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E3961F417DCF0084EF9B /* libstdc++.tbd */; };
+		094B8F351F8DF64400424A41 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E3941F417DC30084EF9B /* libbz2.tbd */; };
+		094B8F361F8DF65300424A41 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E3921F417DBB0084EF9B /* VideoToolbox.framework */; };
+		094B8F371F8DF66700424A41 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E38E1F417DAA0084EF9B /* MediaPlayer.framework */; };
+		094B8F381F8DF67600424A41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E38C1F417DA30084EF9B /* CoreGraphics.framework */; };
+		094B8F391F8DF68200424A41 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E38A1F417D9B0084EF9B /* AudioToolbox.framework */; };
+		094B8F3E1F8DFF0500424A41 /* VideoInfoInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094B8F3D1F8DFF0500424A41 /* VideoInfoInputViewController.swift */; };
+		094B8F401F8E103700424A41 /* BasicFunctionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094B8F3F1F8E103700424A41 /* BasicFunctionDemoViewController.swift */; };
+		094B8F421F8E357500424A41 /* AliyunConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094B8F411F8E357500424A41 /* AliyunConstant.swift */; };
+		094B8F461F8F4B9F00424A41 /* ALiyunPlaySDKCheckToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094B8F451F8F4B9F00424A41 /* ALiyunPlaySDKCheckToolViewController.swift */; };
+		09EC7BF51F920F5600FBF6A8 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EC7BF41F920F5600FBF6A8 /* BaseTableViewController.swift */; };
+		09EC7BF71F9210C600FBF6A8 /* AliyunPlayerMediaUIDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EC7BF61F9210C600FBF6A8 /* AliyunPlayerMediaUIDemoViewController.swift */; };
+		09EC7C011F961ECF00FBF6A8 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EC7C001F961ECF00FBF6A8 /* DownloadViewController.swift */; };
+		09EC7C031F9623CC00FBF6A8 /* AddDownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EC7C021F9623CC00FBF6A8 /* AddDownloadView.swift */; };
+		09EC7C051F97802200FBF6A8 /* DownloadListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EC7C041F97802100FBF6A8 /* DownloadListTableViewCell.swift */; };
+		09F5112E1F91B79500A80C7A /* AliyunPlaySDKListsAutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5112D1F91B79500A80C7A /* AliyunPlaySDKListsAutoViewController.swift */; };
+		09F511321F91D44100A80C7A /* AliyunPlayerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F511311F91D44100A80C7A /* AliyunPlayerHeaderView.swift */; };
+		09F511351F91E96A00A80C7A /* AliyunPlaySDKDemoFullScreenScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F511341F91E96A00A80C7A /* AliyunPlaySDKDemoFullScreenScrollViewController.swift */; };
+		09F511371F91F06400A80C7A /* AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F511361F91F06400A80C7A /* AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.swift */; };
+		09FAB1B31F90A009002C2FE5 /* AliyunPlayMessageShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FAB1B21F90A009002C2FE5 /* AliyunPlayMessageShowView.swift */; };
+		7D32E90F205EA30700769395 /* AvatarBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E909205EA30600769395 /* AvatarBarrageView.m */; };
+		7D32E910205EA30700769395 /* NSSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E90A205EA30600769395 /* NSSafeObject.m */; };
+		7D32E911205EA30700769395 /* UIImage+Barrage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E90D205EA30600769395 /* UIImage+Barrage.m */; };
+		7D32E912205EA30700769395 /* FlowerBarrageSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E90E205EA30600769395 /* FlowerBarrageSprite.m */; };
+		831E08771FB93F8D0039EC52 /* AliyunLanguageSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 831E08751FB93F8D0039EC52 /* AliyunLanguageSource.bundle */; };
+		831E08781FB93F8D0039EC52 /* AliyunImageSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 831E08761FB93F8D0039EC52 /* AliyunImageSource.bundle */; };
+		836273731FD189DB006BB29C /* encryptedApp.dat in Resources */ = {isa = PBXBuildFile; fileRef = 836273721FD189DB006BB29C /* encryptedApp.dat */; };
+		836888AA1FFF670000558395 /* AliyunPlaySDKListsAutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888841FFF670000558395 /* AliyunPlaySDKListsAutoViewController.m */; };
+		836888AB1FFF670000558395 /* AliyunPlaySDKListsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888851FFF670000558395 /* AliyunPlaySDKListsCollectionViewCell.m */; };
+		836888AC1FFF670000558395 /* AliyunTimeShiftLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888881FFF670000558395 /* AliyunTimeShiftLiveViewController.m */; };
+		836888AD1FFF670000558395 /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8368888A1FFF670000558395 /* DownloadViewController.m */; };
+		836888AE1FFF670000558395 /* AddDownloadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8368888C1FFF670000558395 /* AddDownloadView.m */; };
+		836888AF1FFF670000558395 /* DownloadListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8368888E1FFF670000558395 /* DownloadListTableViewCell.m */; };
+		836888B01FFF670000558395 /* AliyunContinuousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888921FFF670000558395 /* AliyunContinuousViewController.m */; };
+		836888B11FFF670000558395 /* AdvancedPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888941FFF670000558395 /* AdvancedPlayerViewController.m */; };
+		836888B21FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888981FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.m */; };
+		836888B31FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888991FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollViewController.m */; };
+		836888B41FFF670000558395 /* AliyunPlayMessageShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8368889B1FFF670000558395 /* AliyunPlayMessageShowView.m */; };
+		836888B51FFF670000558395 /* AliyunPlaySDKDemoOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8368889C1FFF670000558395 /* AliyunPlaySDKDemoOneViewController.m */; };
+		836888B61FFF670000558395 /* AliyunPlayerLivePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888A41FFF670000558395 /* AliyunPlayerLivePlayViewController.m */; };
+		836888B71FFF670000558395 /* BasicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888A51FFF670000558395 /* BasicPlayerViewController.m */; };
+		836888B81FFF670000558395 /* AliyunPlayerVodPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888A71FFF670000558395 /* AliyunPlayerVodPlayViewController.m */; };
+		836888B91FFF670000558395 /* BasicPlayerUrlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888A91FFF670000558395 /* BasicPlayerUrlViewController.m */; };
+		836888BD1FFF677700558395 /* AliyunPlayerMediaUIDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888BB1FFF677700558395 /* AliyunPlayerMediaUIDemoViewController.m */; };
+		836888C71FFF681A00558395 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888BF1FFF681A00558395 /* Reachability.m */; };
+		836888C81FFF681A00558395 /* UINavigationController+autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888C01FFF681A00558395 /* UINavigationController+autorotate.m */; };
+		836888C91FFF681A00558395 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888C11FFF681A00558395 /* UIView+Layout.m */; };
+		836888CA1FFF681A00558395 /* Until.m in Sources */ = {isa = PBXBuildFile; fileRef = 836888C61FFF681A00558395 /* Until.m */; };
+		8377E3671F414CC20084EF9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8377E3661F414CC20084EF9B /* main.m */; };
+		8377E36A1F414CC20084EF9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8377E3691F414CC20084EF9B /* AppDelegate.m */; };
+		8377E36D1F414CC20084EF9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8377E36C1F414CC20084EF9B /* ViewController.m */; };
+		8377E3701F414CC20084EF9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8377E36E1F414CC20084EF9B /* Main.storyboard */; };
+		8377E3721F414CC20084EF9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8377E3711F414CC20084EF9B /* Assets.xcassets */; };
+		8377E3751F414CC20084EF9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8377E3731F414CC20084EF9B /* LaunchScreen.storyboard */; };
+		8377E3871F417D8B0084EF9B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E3861F417D8B0084EF9B /* AVFoundation.framework */; };
+		8377E3891F417D930084EF9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E3881F417D930084EF9B /* Foundation.framework */; };
+		8377E38B1F417D9B0084EF9B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E38A1F417D9B0084EF9B /* AudioToolbox.framework */; };
+		8377E38D1F417DA30084EF9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E38C1F417DA30084EF9B /* CoreGraphics.framework */; };
+		8377E38F1F417DAA0084EF9B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E38E1F417DAA0084EF9B /* MediaPlayer.framework */; };
+		8377E3911F417DB00084EF9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E3901F417DB00084EF9B /* UIKit.framework */; };
+		8377E3931F417DBB0084EF9B /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E3921F417DBB0084EF9B /* VideoToolbox.framework */; };
+		8377E3951F417DC30084EF9B /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E3941F417DC30084EF9B /* libbz2.tbd */; };
+		8377E3971F417DCF0084EF9B /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E3961F417DCF0084EF9B /* libstdc++.tbd */; };
+		8377E3991F417DD60084EF9B /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E3981F417DD60084EF9B /* libiconv.tbd */; };
+		8377E39B1F417DE00084EF9B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8377E39A1F417DE00084EF9B /* libz.tbd */; };
+		838A20251F510B8F00A10842 /* ALiyunPlaySDKCheckToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 838A20241F510B8F00A10842 /* ALiyunPlaySDKCheckToolViewController.m */; };
+		838C56141FA1DB9D0092C448 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 838C56161FA1DB9D0092C448 /* Localizable.strings */; };
+		83A6937B202C128C0003D77A /* question.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 83A69377202C128C0003D77A /* question.m4a */; };
+		83A6937C202C128C0003D77A /* tap.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 83A69378202C128C0003D77A /* tap.m4a */; };
+		83A6937D202C128C0003D77A /* results.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 83A69379202C128C0003D77A /* results.m4a */; };
+		83A6937E202C128C0003D77A /* right.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 83A6937A202C128C0003D77A /* right.m4a */; };
+		83A69381202C15C30003D77A /* AliyunResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A69380202C15C30003D77A /* AliyunResultView.m */; };
+		83A69384202C16750003D77A /* CATCurveProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A69383202C16740003D77A /* CATCurveProgressView.m */; };
+		83B9E7D32017176000A5E678 /* UIAliyunSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B9E7D22017176000A5E678 /* UIAliyunSlider.m */; };
+		83BB23DF1FA1C4D000F3EF09 /* AliyunVodPlayerViewSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BB23DD1FA1C4CF00F3EF09 /* AliyunVodPlayerViewSDK.framework */; };
+		83BB23E01FA1C4D000F3EF09 /* AliyunVodPlayerViewSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83BB23DD1FA1C4CF00F3EF09 /* AliyunVodPlayerViewSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83BB23E11FA1C4D000F3EF09 /* AliyunVodPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BB23DE1FA1C4D000F3EF09 /* AliyunVodPlayerSDK.framework */; };
+		83BB23E21FA1C4D000F3EF09 /* AliyunVodPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83BB23DE1FA1C4D000F3EF09 /* AliyunVodPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83BB23F21FA1C75B00F3EF09 /* AliyunVodPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BB23DE1FA1C4D000F3EF09 /* AliyunVodPlayerSDK.framework */; };
+		83BB23F31FA1C75B00F3EF09 /* AliyunVodPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83BB23DE1FA1C4D000F3EF09 /* AliyunVodPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83BB23F41FA1C75B00F3EF09 /* AliyunVodPlayerViewSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BB23DD1FA1C4CF00F3EF09 /* AliyunVodPlayerViewSDK.framework */; };
+		83BB23F51FA1C75B00F3EF09 /* AliyunVodPlayerViewSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83BB23DD1FA1C4CF00F3EF09 /* AliyunVodPlayerViewSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83BB23F61FA1C89600F3EF09 /* encryptedApp.dat in Resources */ = {isa = PBXBuildFile; fileRef = 09A84F621F9B2056003A2E5D /* encryptedApp.dat */; };
+		83BFD80A201AC47600202E44 /* AliyunQuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BFD7F3201AC47600202E44 /* AliyunQuestionModel.m */; };
+		83BFD80B201AC47600202E44 /* AliyunQuestionReportModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BFD7F5201AC47600202E44 /* AliyunQuestionReportModel.m */; };
+		83BFD80C201AC47600202E44 /* AliyunAnswerPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BFD7F7201AC47600202E44 /* AliyunAnswerPlayerViewController.m */; };
+		83BFD80D201AC47600202E44 /* AliyunAnswerLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BFD7F9201AC47600202E44 /* AliyunAnswerLogView.m */; };
+		83BFD80E201AC47600202E44 /* AliyunLiveQuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BFD7FE201AC47600202E44 /* AliyunLiveQuestionManager.m */; };
+		83BFD80F201AC47600202E44 /* AliyunLiveQuestionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BFD800201AC47600202E44 /* AliyunLiveQuestionItem.m */; };
+		83BFD810201AC47600202E44 /* AliyunAnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BFD802201AC47600202E44 /* AliyunAnswerViewController.m */; };
+		83BFD811201AC47600202E44 /* AliyunAnswerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BFD805201AC47600202E44 /* AliyunAnswerView.m */; };
+		83BFD812201AC47600202E44 /* AliyunReuqestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BFD806201AC47600202E44 /* AliyunReuqestManager.m */; };
+		83BFD813201AC47600202E44 /* AliyunOptionReportModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BFD807201AC47600202E44 /* AliyunOptionReportModel.m */; };
+		83BFD814201AC47600202E44 /* AliyunLiveQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BFD808201AC47600202E44 /* AliyunLiveQuestion.m */; };
+		83BFD815201AC47600202E44 /* AliyunAnswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BFD809201AC47600202E44 /* AliyunAnswerCell.m */; };
+		83D4C9C9201B0C1C008FD0CB /* AliyunPlayDataConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D4C9C8201B0C1C008FD0CB /* AliyunPlayDataConfig.m */; };
+		83D7A5291FB1B7B400B56F9E /* AliyunPlayerVodPlayCopyrightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7A5271FB1B7B400B56F9E /* AliyunPlayerVodPlayCopyrightViewController.m */; };
+		83D7A52B1FB1B89400B56F9E /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83D7A52A1FB1B89400B56F9E /* license.txt */; };
+		83D999931FA30AFB00819C89 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D999951FA30AFB00819C89 /* Localizable.strings */; };
+		CA6BD25D1FB178EB00F2C80B /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6BD25C1FB178EB00F2C80B /* AliyunPlayerSDK.framework */; };
+		CA6BD25E1FB178EB00F2C80B /* AliyunPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA6BD25C1FB178EB00F2C80B /* AliyunPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CA7AA4E51F711ED400A004CD /* AddPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AA4E41F711ED400A004CD /* AddPlayView.m */; };
+		FE069891EA25B361E2148623 /* libPods-AliyunPlayerMediaDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F184370CFD16C4CCD3A1258 /* libPods-AliyunPlayerMediaDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		094B8F301F8DF5E300424A41 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				83BB23F51FA1C75B00F3EF09 /* AliyunVodPlayerViewSDK.framework in Embed Frameworks */,
+				83BB23F31FA1C75B00F3EF09 /* AliyunVodPlayerSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D5AD51F42A3790036912A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				83BB23E21FA1C4D000F3EF09 /* AliyunVodPlayerSDK.framework in Embed Frameworks */,
+				83BB23E01FA1C4D000F3EF09 /* AliyunVodPlayerViewSDK.framework in Embed Frameworks */,
+				CA6BD25E1FB178EB00F2C80B /* AliyunPlayerSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		094B8F1A1F8DF5C900424A41 /* AliyunPlayerMediaDemo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AliyunPlayerMediaDemo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		094B8F1C1F8DF5CA00424A41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		094B8F211F8DF5CA00424A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		094B8F231F8DF5CA00424A41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		094B8F261F8DF5CA00424A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		094B8F281F8DF5CA00424A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094B8F3A1F8DF71E00424A41 /* AliyunPlayerMediaDemo-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AliyunPlayerMediaDemo-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		094B8F3D1F8DFF0500424A41 /* VideoInfoInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInfoInputViewController.swift; sourceTree = "<group>"; };
+		094B8F3F1F8E103700424A41 /* BasicFunctionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicFunctionDemoViewController.swift; sourceTree = "<group>"; };
+		094B8F411F8E357500424A41 /* AliyunConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliyunConstant.swift; sourceTree = "<group>"; };
+		094B8F451F8F4B9F00424A41 /* ALiyunPlaySDKCheckToolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALiyunPlaySDKCheckToolViewController.swift; sourceTree = "<group>"; };
+		09A84F621F9B2056003A2E5D /* encryptedApp.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = encryptedApp.dat; sourceTree = "<group>"; };
+		09EC7BF41F920F5600FBF6A8 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		09EC7BF61F9210C600FBF6A8 /* AliyunPlayerMediaUIDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliyunPlayerMediaUIDemoViewController.swift; sourceTree = "<group>"; };
+		09EC7C001F961ECF00FBF6A8 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		09EC7C021F9623CC00FBF6A8 /* AddDownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDownloadView.swift; sourceTree = "<group>"; };
+		09EC7C041F97802100FBF6A8 /* DownloadListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadListTableViewCell.swift; sourceTree = "<group>"; };
+		09F5112D1F91B79500A80C7A /* AliyunPlaySDKListsAutoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliyunPlaySDKListsAutoViewController.swift; sourceTree = "<group>"; };
+		09F511311F91D44100A80C7A /* AliyunPlayerHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliyunPlayerHeaderView.swift; sourceTree = "<group>"; };
+		09F511341F91E96A00A80C7A /* AliyunPlaySDKDemoFullScreenScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliyunPlaySDKDemoFullScreenScrollViewController.swift; sourceTree = "<group>"; };
+		09F511361F91F06400A80C7A /* AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.swift; sourceTree = "<group>"; };
+		09FAB1B21F90A009002C2FE5 /* AliyunPlayMessageShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliyunPlayMessageShowView.swift; sourceTree = "<group>"; };
+		2F184370CFD16C4CCD3A1258 /* libPods-AliyunPlayerMediaDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliyunPlayerMediaDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		592991DAEF917EEE388BEAE6 /* Pods-AliyunPlayerMediaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunPlayerMediaDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunPlayerMediaDemo/Pods-AliyunPlayerMediaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7D32E907205EA30500769395 /* FlowerBarrageSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowerBarrageSprite.h; sourceTree = "<group>"; };
+		7D32E908205EA30500769395 /* NSSafeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSafeObject.h; sourceTree = "<group>"; };
+		7D32E909205EA30600769395 /* AvatarBarrageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarBarrageView.m; sourceTree = "<group>"; };
+		7D32E90A205EA30600769395 /* NSSafeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSafeObject.m; sourceTree = "<group>"; };
+		7D32E90B205EA30600769395 /* AvatarBarrageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarBarrageView.h; sourceTree = "<group>"; };
+		7D32E90C205EA30600769395 /* UIImage+Barrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Barrage.h"; sourceTree = "<group>"; };
+		7D32E90D205EA30600769395 /* UIImage+Barrage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Barrage.m"; sourceTree = "<group>"; };
+		7D32E90E205EA30600769395 /* FlowerBarrageSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowerBarrageSprite.m; sourceTree = "<group>"; };
+		831E08751FB93F8D0039EC52 /* AliyunLanguageSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AliyunLanguageSource.bundle; path = lib/AliyunLanguageSource.bundle; sourceTree = "<group>"; };
+		831E08761FB93F8D0039EC52 /* AliyunImageSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AliyunImageSource.bundle; path = lib/AliyunImageSource.bundle; sourceTree = "<group>"; };
+		8334BBF41F4ADFE70028F9FC /* AliyunVodPlayerViewSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliyunVodPlayerViewSDK.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ALPlayer-ccfjgumzqentsyasieiptywotmfo/Build/Products/Debug-iphonesimulator/AliyunVodPlayerViewSDK.framework"; sourceTree = "<group>"; };
+		836273721FD189DB006BB29C /* encryptedApp.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = encryptedApp.dat; sourceTree = "<group>"; };
+		836888821FFF670000558395 /* AliyunPlaySDKListsAutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunPlaySDKListsAutoViewController.h; sourceTree = "<group>"; };
+		836888831FFF670000558395 /* AliyunPlaySDKListsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunPlaySDKListsCollectionViewCell.h; sourceTree = "<group>"; };
+		836888841FFF670000558395 /* AliyunPlaySDKListsAutoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunPlaySDKListsAutoViewController.m; sourceTree = "<group>"; };
+		836888851FFF670000558395 /* AliyunPlaySDKListsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunPlaySDKListsCollectionViewCell.m; sourceTree = "<group>"; };
+		836888871FFF670000558395 /* AliyunTimeShiftLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunTimeShiftLiveViewController.h; sourceTree = "<group>"; };
+		836888881FFF670000558395 /* AliyunTimeShiftLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunTimeShiftLiveViewController.m; sourceTree = "<group>"; };
+		8368888A1FFF670000558395 /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
+		8368888B1FFF670000558395 /* DownloadListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadListTableViewCell.h; sourceTree = "<group>"; };
+		8368888C1FFF670000558395 /* AddDownloadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDownloadView.m; sourceTree = "<group>"; };
+		8368888D1FFF670000558395 /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		8368888E1FFF670000558395 /* DownloadListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadListTableViewCell.m; sourceTree = "<group>"; };
+		8368888F1FFF670000558395 /* AddDownloadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDownloadView.h; sourceTree = "<group>"; };
+		836888901FFF670000558395 /* AdvancedPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedPlayerViewController.h; sourceTree = "<group>"; };
+		836888921FFF670000558395 /* AliyunContinuousViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunContinuousViewController.m; sourceTree = "<group>"; };
+		836888931FFF670000558395 /* AliyunContinuousViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunContinuousViewController.h; sourceTree = "<group>"; };
+		836888941FFF670000558395 /* AdvancedPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedPlayerViewController.m; sourceTree = "<group>"; };
+		836888961FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.h; sourceTree = "<group>"; };
+		836888971FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunPlaySDKDemoFullScreenScrollViewController.h; sourceTree = "<group>"; };
+		836888981FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.m; sourceTree = "<group>"; };
+		836888991FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunPlaySDKDemoFullScreenScrollViewController.m; sourceTree = "<group>"; };
+		8368889B1FFF670000558395 /* AliyunPlayMessageShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayMessageShowView.m; sourceTree = "<group>"; };
+		8368889C1FFF670000558395 /* AliyunPlaySDKDemoOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunPlaySDKDemoOneViewController.m; sourceTree = "<group>"; };
+		8368889D1FFF670000558395 /* AliyunPlayMessageShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunPlayMessageShowView.h; sourceTree = "<group>"; };
+		8368889E1FFF670000558395 /* AliyunPlaySDKDemoOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunPlaySDKDemoOneViewController.h; sourceTree = "<group>"; };
+		836888A01FFF670000558395 /* BasicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicPlayerViewController.h; sourceTree = "<group>"; };
+		836888A11FFF670000558395 /* BasicPlayerUrlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicPlayerUrlViewController.h; sourceTree = "<group>"; };
+		836888A31FFF670000558395 /* AliyunPlayerLivePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerLivePlayViewController.h; sourceTree = "<group>"; };
+		836888A41FFF670000558395 /* AliyunPlayerLivePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerLivePlayViewController.m; sourceTree = "<group>"; };
+		836888A51FFF670000558395 /* BasicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicPlayerViewController.m; sourceTree = "<group>"; };
+		836888A71FFF670000558395 /* AliyunPlayerVodPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerVodPlayViewController.m; sourceTree = "<group>"; };
+		836888A81FFF670000558395 /* AliyunPlayerVodPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerVodPlayViewController.h; sourceTree = "<group>"; };
+		836888A91FFF670000558395 /* BasicPlayerUrlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicPlayerUrlViewController.m; sourceTree = "<group>"; };
+		836888BB1FFF677700558395 /* AliyunPlayerMediaUIDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerMediaUIDemoViewController.m; sourceTree = "<group>"; };
+		836888BC1FFF677700558395 /* AliyunPlayerMediaUIDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerMediaUIDemoViewController.h; sourceTree = "<group>"; };
+		836888BF1FFF681A00558395 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		836888C01FFF681A00558395 /* UINavigationController+autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+autorotate.m"; sourceTree = "<group>"; };
+		836888C11FFF681A00558395 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		836888C21FFF681A00558395 /* Until.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Until.h; sourceTree = "<group>"; };
+		836888C31FFF681A00558395 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		836888C41FFF681A00558395 /* UINavigationController+autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+autorotate.h"; sourceTree = "<group>"; };
+		836888C51FFF681A00558395 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		836888C61FFF681A00558395 /* Until.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Until.m; sourceTree = "<group>"; };
+		8377E3621F414CC20084EF9B /* AliyunPlayerMediaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliyunPlayerMediaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8377E3661F414CC20084EF9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8377E3681F414CC20084EF9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8377E3691F414CC20084EF9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8377E36B1F414CC20084EF9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8377E36C1F414CC20084EF9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8377E36F1F414CC20084EF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8377E3711F414CC20084EF9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8377E3741F414CC20084EF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8377E3761F414CC20084EF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8377E3861F417D8B0084EF9B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8377E3881F417D930084EF9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8377E38A1F417D9B0084EF9B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8377E38C1F417DA30084EF9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8377E38E1F417DAA0084EF9B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		8377E3901F417DB00084EF9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8377E3921F417DBB0084EF9B /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		8377E3941F417DC30084EF9B /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		8377E3961F417DCF0084EF9B /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		8377E3981F417DD60084EF9B /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		8377E39A1F417DE00084EF9B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		838A20231F510B8F00A10842 /* ALiyunPlaySDKCheckToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALiyunPlaySDKCheckToolViewController.h; sourceTree = "<group>"; };
+		838A20241F510B8F00A10842 /* ALiyunPlaySDKCheckToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALiyunPlaySDKCheckToolViewController.m; sourceTree = "<group>"; };
+		838C56081FA1D9E50092C448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		838C56091FA1D9E50092C448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		838C560A1FA1D9E50092C448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		838C560C1FA1D9EB0092C448 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		838C560D1FA1D9EB0092C448 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		838C560E1FA1D9EB0092C448 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		838C56151FA1DB9D0092C448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		838C56171FA1DB9F0092C448 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		83A69377202C128C0003D77A /* question.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = question.m4a; sourceTree = "<group>"; };
+		83A69378202C128C0003D77A /* tap.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap.m4a; sourceTree = "<group>"; };
+		83A69379202C128C0003D77A /* results.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = results.m4a; sourceTree = "<group>"; };
+		83A6937A202C128C0003D77A /* right.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = right.m4a; sourceTree = "<group>"; };
+		83A6937F202C15C30003D77A /* AliyunResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunResultView.h; sourceTree = "<group>"; };
+		83A69380202C15C30003D77A /* AliyunResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunResultView.m; sourceTree = "<group>"; };
+		83A69382202C16740003D77A /* CATCurveProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATCurveProgressView.h; sourceTree = "<group>"; };
+		83A69383202C16740003D77A /* CATCurveProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATCurveProgressView.m; sourceTree = "<group>"; };
+		83A69385202C16AB0003D77A /* AliyunAnswerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AliyunAnswerHeader.h; sourceTree = "<group>"; };
+		83B9E7D12017176000A5E678 /* UIAliyunSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAliyunSlider.h; sourceTree = "<group>"; };
+		83B9E7D22017176000A5E678 /* UIAliyunSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAliyunSlider.m; sourceTree = "<group>"; };
+		83BB23DD1FA1C4CF00F3EF09 /* AliyunVodPlayerViewSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliyunVodPlayerViewSDK.framework; path = lib/AliyunVodPlayerViewSDK.framework; sourceTree = "<group>"; };
+		83BB23DE1FA1C4D000F3EF09 /* AliyunVodPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliyunVodPlayerSDK.framework; path = lib/AliyunVodPlayerSDK.framework; sourceTree = "<group>"; };
+		83BFD7F2201AC47600202E44 /* AliyunLiveQuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunLiveQuestionManager.h; sourceTree = "<group>"; };
+		83BFD7F3201AC47600202E44 /* AliyunQuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunQuestionModel.m; sourceTree = "<group>"; };
+		83BFD7F4201AC47600202E44 /* AliyunAnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunAnswerViewController.h; sourceTree = "<group>"; };
+		83BFD7F5201AC47600202E44 /* AliyunQuestionReportModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunQuestionReportModel.m; sourceTree = "<group>"; };
+		83BFD7F6201AC47600202E44 /* AliyunLiveQuestionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunLiveQuestionItem.h; sourceTree = "<group>"; };
+		83BFD7F7201AC47600202E44 /* AliyunAnswerPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunAnswerPlayerViewController.m; sourceTree = "<group>"; };
+		83BFD7F8201AC47600202E44 /* AliyunAnswerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunAnswerView.h; sourceTree = "<group>"; };
+		83BFD7F9201AC47600202E44 /* AliyunAnswerLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunAnswerLogView.m; sourceTree = "<group>"; };
+		83BFD7FA201AC47600202E44 /* AliyunAnswerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunAnswerCell.h; sourceTree = "<group>"; };
+		83BFD7FB201AC47600202E44 /* AliyunOptionReportModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunOptionReportModel.h; sourceTree = "<group>"; };
+		83BFD7FC201AC47600202E44 /* AliyunReuqestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunReuqestManager.h; sourceTree = "<group>"; };
+		83BFD7FD201AC47600202E44 /* AliyunLiveQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunLiveQuestion.h; sourceTree = "<group>"; };
+		83BFD7FE201AC47600202E44 /* AliyunLiveQuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunLiveQuestionManager.m; sourceTree = "<group>"; };
+		83BFD7FF201AC47600202E44 /* AliyunAnswerPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunAnswerPlayerViewController.h; sourceTree = "<group>"; };
+		83BFD800201AC47600202E44 /* AliyunLiveQuestionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunLiveQuestionItem.m; sourceTree = "<group>"; };
+		83BFD801201AC47600202E44 /* AliyunQuestionReportModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunQuestionReportModel.h; sourceTree = "<group>"; };
+		83BFD802201AC47600202E44 /* AliyunAnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunAnswerViewController.m; sourceTree = "<group>"; };
+		83BFD803201AC47600202E44 /* AliyunQuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunQuestionModel.h; sourceTree = "<group>"; };
+		83BFD804201AC47600202E44 /* AliyunAnswerLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunAnswerLogView.h; sourceTree = "<group>"; };
+		83BFD805201AC47600202E44 /* AliyunAnswerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunAnswerView.m; sourceTree = "<group>"; };
+		83BFD806201AC47600202E44 /* AliyunReuqestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunReuqestManager.m; sourceTree = "<group>"; };
+		83BFD807201AC47600202E44 /* AliyunOptionReportModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunOptionReportModel.m; sourceTree = "<group>"; };
+		83BFD808201AC47600202E44 /* AliyunLiveQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunLiveQuestion.m; sourceTree = "<group>"; };
+		83BFD809201AC47600202E44 /* AliyunAnswerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunAnswerCell.m; sourceTree = "<group>"; };
+		83D4C9C7201B0C1C008FD0CB /* AliyunPlayDataConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AliyunPlayDataConfig.h; sourceTree = "<group>"; };
+		83D4C9C8201B0C1C008FD0CB /* AliyunPlayDataConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayDataConfig.m; sourceTree = "<group>"; };
+		83D7A5271FB1B7B400B56F9E /* AliyunPlayerVodPlayCopyrightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerVodPlayCopyrightViewController.m; sourceTree = "<group>"; };
+		83D7A5281FB1B7B400B56F9E /* AliyunPlayerVodPlayCopyrightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerVodPlayCopyrightViewController.h; sourceTree = "<group>"; };
+		83D7A52A1FB1B89400B56F9E /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		83D999941FA30AFB00819C89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		83D999961FA30AFC00819C89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		83EAFB7E1FCFF33A00D4C263 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		83EAFB801FCFF34000D4C263 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		B08AEA3730ACA8023097EBA7 /* Pods-AliyunPlayerMediaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunPlayerMediaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunPlayerMediaDemo/Pods-AliyunPlayerMediaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CA6BD25C1FB178EB00F2C80B /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliyunPlayerSDK.framework; path = lib/AliyunPlayerSDK.framework; sourceTree = "<group>"; };
+		CA7AA4E31F711ED400A004CD /* AddPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPlayView.h; sourceTree = "<group>"; };
+		CA7AA4E41F711ED400A004CD /* AddPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPlayView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094B8F171F8DF5C900424A41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BB23F21FA1C75B00F3EF09 /* AliyunVodPlayerSDK.framework in Frameworks */,
+				83BB23F41FA1C75B00F3EF09 /* AliyunVodPlayerViewSDK.framework in Frameworks */,
+				094B8F391F8DF68200424A41 /* AudioToolbox.framework in Frameworks */,
+				094B8F381F8DF67600424A41 /* CoreGraphics.framework in Frameworks */,
+				094B8F371F8DF66700424A41 /* MediaPlayer.framework in Frameworks */,
+				094B8F361F8DF65300424A41 /* VideoToolbox.framework in Frameworks */,
+				094B8F351F8DF64400424A41 /* libbz2.tbd in Frameworks */,
+				094B8F341F8DF63200424A41 /* libstdc++.tbd in Frameworks */,
+				094B8F331F8DF61F00424A41 /* libiconv.tbd in Frameworks */,
+				094B8F321F8DF60A00424A41 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8377E35F1F414CC20084EF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8377E39B1F417DE00084EF9B /* libz.tbd in Frameworks */,
+				8377E3991F417DD60084EF9B /* libiconv.tbd in Frameworks */,
+				8377E3971F417DCF0084EF9B /* libstdc++.tbd in Frameworks */,
+				8377E3951F417DC30084EF9B /* libbz2.tbd in Frameworks */,
+				CA6BD25D1FB178EB00F2C80B /* AliyunPlayerSDK.framework in Frameworks */,
+				8377E3931F417DBB0084EF9B /* VideoToolbox.framework in Frameworks */,
+				8377E3911F417DB00084EF9B /* UIKit.framework in Frameworks */,
+				83BB23DF1FA1C4D000F3EF09 /* AliyunVodPlayerViewSDK.framework in Frameworks */,
+				8377E38F1F417DAA0084EF9B /* MediaPlayer.framework in Frameworks */,
+				83BB23E11FA1C4D000F3EF09 /* AliyunVodPlayerSDK.framework in Frameworks */,
+				8377E38D1F417DA30084EF9B /* CoreGraphics.framework in Frameworks */,
+				8377E38B1F417D9B0084EF9B /* AudioToolbox.framework in Frameworks */,
+				8377E3891F417D930084EF9B /* Foundation.framework in Frameworks */,
+				8377E3871F417D8B0084EF9B /* AVFoundation.framework in Frameworks */,
+				FE069891EA25B361E2148623 /* libPods-AliyunPlayerMediaDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094B8F1B1F8DF5CA00424A41 /* AliyunPlayerMediaDemo-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				094B8F411F8E357500424A41 /* AliyunConstant.swift */,
+				09A84F621F9B2056003A2E5D /* encryptedApp.dat */,
+				094B8F1C1F8DF5CA00424A41 /* AppDelegate.swift */,
+				094B8F3D1F8DFF0500424A41 /* VideoInfoInputViewController.swift */,
+				09EC7BF41F920F5600FBF6A8 /* BaseTableViewController.swift */,
+				094B8F431F8E476600424A41 /* 基础功能演示 */,
+				094B8F441F8F4B6100424A41 /* 检测工具 */,
+				09F5112C1F91B71B00A80C7A /* 多实例列表 */,
+				09F511331F91E90800A80C7A /* 多实例滑动 */,
+				09F511381F920A6800A80C7A /* UI播放器 */,
+				09EC7BFD1F961E5800FBF6A8 /* 下载功能 */,
+				094B8F201F8DF5CA00424A41 /* Main.storyboard */,
+				094B8F231F8DF5CA00424A41 /* Assets.xcassets */,
+				094B8F251F8DF5CA00424A41 /* LaunchScreen.storyboard */,
+				094B8F281F8DF5CA00424A41 /* Info.plist */,
+				83D999951FA30AFB00819C89 /* Localizable.strings */,
+				094B8F3A1F8DF71E00424A41 /* AliyunPlayerMediaDemo-Swift-Bridging-Header.h */,
+			);
+			path = "AliyunPlayerMediaDemo-Swift";
+			sourceTree = "<group>";
+		};
+		094B8F431F8E476600424A41 /* 基础功能演示 */ = {
+			isa = PBXGroup;
+			children = (
+				094B8F3F1F8E103700424A41 /* BasicFunctionDemoViewController.swift */,
+				09FAB1B21F90A009002C2FE5 /* AliyunPlayMessageShowView.swift */,
+			);
+			path = "基础功能演示";
+			sourceTree = "<group>";
+		};
+		094B8F441F8F4B6100424A41 /* 检测工具 */ = {
+			isa = PBXGroup;
+			children = (
+				094B8F451F8F4B9F00424A41 /* ALiyunPlaySDKCheckToolViewController.swift */,
+			);
+			path = "检测工具";
+			sourceTree = "<group>";
+		};
+		09EC7BFD1F961E5800FBF6A8 /* 下载功能 */ = {
+			isa = PBXGroup;
+			children = (
+				09EC7C001F961ECF00FBF6A8 /* DownloadViewController.swift */,
+				09EC7C041F97802100FBF6A8 /* DownloadListTableViewCell.swift */,
+				09EC7C021F9623CC00FBF6A8 /* AddDownloadView.swift */,
+			);
+			path = "下载功能";
+			sourceTree = "<group>";
+		};
+		09F5112C1F91B71B00A80C7A /* 多实例列表 */ = {
+			isa = PBXGroup;
+			children = (
+				09F5112D1F91B79500A80C7A /* AliyunPlaySDKListsAutoViewController.swift */,
+				09F511311F91D44100A80C7A /* AliyunPlayerHeaderView.swift */,
+			);
+			path = "多实例列表";
+			sourceTree = "<group>";
+		};
+		09F511331F91E90800A80C7A /* 多实例滑动 */ = {
+			isa = PBXGroup;
+			children = (
+				09F511341F91E96A00A80C7A /* AliyunPlaySDKDemoFullScreenScrollViewController.swift */,
+				09F511361F91F06400A80C7A /* AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.swift */,
+			);
+			path = "多实例滑动";
+			sourceTree = "<group>";
+		};
+		09F511381F920A6800A80C7A /* UI播放器 */ = {
+			isa = PBXGroup;
+			children = (
+				09EC7BF61F9210C600FBF6A8 /* AliyunPlayerMediaUIDemoViewController.swift */,
+			);
+			path = "UI播放器";
+			sourceTree = "<group>";
+		};
+		836888801FFF670000558395 /* Advanced player */ = {
+			isa = PBXGroup;
+			children = (
+				836888901FFF670000558395 /* AdvancedPlayerViewController.h */,
+				836888941FFF670000558395 /* AdvancedPlayerViewController.m */,
+				8368889A1FFF670000558395 /* base_vod */,
+				836888861FFF670000558395 /* time-shift */,
+				836888811FFF670000558395 /* lists */,
+				836888951FFF670000558395 /* lists_scroll */,
+				836888911FFF670000558395 /* continuous */,
+				836888891FFF670000558395 /* download */,
+			);
+			path = "Advanced player";
+			sourceTree = "<group>";
+		};
+		836888811FFF670000558395 /* lists */ = {
+			isa = PBXGroup;
+			children = (
+				836888821FFF670000558395 /* AliyunPlaySDKListsAutoViewController.h */,
+				836888841FFF670000558395 /* AliyunPlaySDKListsAutoViewController.m */,
+				836888831FFF670000558395 /* AliyunPlaySDKListsCollectionViewCell.h */,
+				836888851FFF670000558395 /* AliyunPlaySDKListsCollectionViewCell.m */,
+			);
+			path = lists;
+			sourceTree = "<group>";
+		};
+		836888861FFF670000558395 /* time-shift */ = {
+			isa = PBXGroup;
+			children = (
+				836888871FFF670000558395 /* AliyunTimeShiftLiveViewController.h */,
+				836888881FFF670000558395 /* AliyunTimeShiftLiveViewController.m */,
+			);
+			path = "time-shift";
+			sourceTree = "<group>";
+		};
+		836888891FFF670000558395 /* download */ = {
+			isa = PBXGroup;
+			children = (
+				8368888F1FFF670000558395 /* AddDownloadView.h */,
+				8368888C1FFF670000558395 /* AddDownloadView.m */,
+				8368888D1FFF670000558395 /* DownloadViewController.h */,
+				8368888A1FFF670000558395 /* DownloadViewController.m */,
+				8368888B1FFF670000558395 /* DownloadListTableViewCell.h */,
+				8368888E1FFF670000558395 /* DownloadListTableViewCell.m */,
+			);
+			path = download;
+			sourceTree = "<group>";
+		};
+		836888911FFF670000558395 /* continuous */ = {
+			isa = PBXGroup;
+			children = (
+				836888931FFF670000558395 /* AliyunContinuousViewController.h */,
+				836888921FFF670000558395 /* AliyunContinuousViewController.m */,
+			);
+			path = continuous;
+			sourceTree = "<group>";
+		};
+		836888951FFF670000558395 /* lists_scroll */ = {
+			isa = PBXGroup;
+			children = (
+				836888971FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollViewController.h */,
+				836888991FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollViewController.m */,
+				836888961FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.h */,
+				836888981FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.m */,
+			);
+			path = lists_scroll;
+			sourceTree = "<group>";
+		};
+		8368889A1FFF670000558395 /* base_vod */ = {
+			isa = PBXGroup;
+			children = (
+				8368889E1FFF670000558395 /* AliyunPlaySDKDemoOneViewController.h */,
+				8368889C1FFF670000558395 /* AliyunPlaySDKDemoOneViewController.m */,
+				8368889D1FFF670000558395 /* AliyunPlayMessageShowView.h */,
+				8368889B1FFF670000558395 /* AliyunPlayMessageShowView.m */,
+			);
+			path = base_vod;
+			sourceTree = "<group>";
+		};
+		8368889F1FFF670000558395 /* Basic player */ = {
+			isa = PBXGroup;
+			children = (
+				836888A01FFF670000558395 /* BasicPlayerViewController.h */,
+				836888A51FFF670000558395 /* BasicPlayerViewController.m */,
+				836888A61FFF670000558395 /* vod */,
+				836888A21FFF670000558395 /* live */,
+			);
+			path = "Basic player";
+			sourceTree = "<group>";
+		};
+		836888A21FFF670000558395 /* live */ = {
+			isa = PBXGroup;
+			children = (
+				836888A31FFF670000558395 /* AliyunPlayerLivePlayViewController.h */,
+				836888A41FFF670000558395 /* AliyunPlayerLivePlayViewController.m */,
+				7D32E90B205EA30600769395 /* AvatarBarrageView.h */,
+				7D32E909205EA30600769395 /* AvatarBarrageView.m */,
+				7D32E907205EA30500769395 /* FlowerBarrageSprite.h */,
+				7D32E90E205EA30600769395 /* FlowerBarrageSprite.m */,
+				7D32E908205EA30500769395 /* NSSafeObject.h */,
+				7D32E90A205EA30600769395 /* NSSafeObject.m */,
+				7D32E90C205EA30600769395 /* UIImage+Barrage.h */,
+				7D32E90D205EA30600769395 /* UIImage+Barrage.m */,
+			);
+			path = live;
+			sourceTree = "<group>";
+		};
+		836888A61FFF670000558395 /* vod */ = {
+			isa = PBXGroup;
+			children = (
+				836888A81FFF670000558395 /* AliyunPlayerVodPlayViewController.h */,
+				836888A71FFF670000558395 /* AliyunPlayerVodPlayViewController.m */,
+			);
+			path = vod;
+			sourceTree = "<group>";
+		};
+		836888BA1FFF677700558395 /* UI player */ = {
+			isa = PBXGroup;
+			children = (
+				836888BC1FFF677700558395 /* AliyunPlayerMediaUIDemoViewController.h */,
+				836888BB1FFF677700558395 /* AliyunPlayerMediaUIDemoViewController.m */,
+			);
+			path = "UI player";
+			sourceTree = "<group>";
+		};
+		836888BE1FFF681A00558395 /* Until */ = {
+			isa = PBXGroup;
+			children = (
+				836888C31FFF681A00558395 /* Reachability.h */,
+				836888BF1FFF681A00558395 /* Reachability.m */,
+				836888C41FFF681A00558395 /* UINavigationController+autorotate.h */,
+				836888C01FFF681A00558395 /* UINavigationController+autorotate.m */,
+				836888C51FFF681A00558395 /* UIView+Layout.h */,
+				836888C11FFF681A00558395 /* UIView+Layout.m */,
+				836888C21FFF681A00558395 /* Until.h */,
+				836888C61FFF681A00558395 /* Until.m */,
+				83B9E7D12017176000A5E678 /* UIAliyunSlider.h */,
+				83B9E7D22017176000A5E678 /* UIAliyunSlider.m */,
+			);
+			path = Until;
+			sourceTree = "<group>";
+		};
+		8377E3591F414CC20084EF9B = {
+			isa = PBXGroup;
+			children = (
+				831E08761FB93F8D0039EC52 /* AliyunImageSource.bundle */,
+				831E08751FB93F8D0039EC52 /* AliyunLanguageSource.bundle */,
+				CA6BD25C1FB178EB00F2C80B /* AliyunPlayerSDK.framework */,
+				83BB23DE1FA1C4D000F3EF09 /* AliyunVodPlayerSDK.framework */,
+				83BB23DD1FA1C4CF00F3EF09 /* AliyunVodPlayerViewSDK.framework */,
+				8377E3641F414CC20084EF9B /* AliyunPlayerMediaDemo */,
+				094B8F1B1F8DF5CA00424A41 /* AliyunPlayerMediaDemo-Swift */,
+				8377E3631F414CC20084EF9B /* Products */,
+				8377E37C1F414CFD0084EF9B /* Frameworks */,
+				B6CD4F760F6506FA958D3FCF /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8377E3631F414CC20084EF9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8377E3621F414CC20084EF9B /* AliyunPlayerMediaDemo.app */,
+				094B8F1A1F8DF5C900424A41 /* AliyunPlayerMediaDemo-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8377E3641F414CC20084EF9B /* AliyunPlayerMediaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				83D4C9C7201B0C1C008FD0CB /* AliyunPlayDataConfig.h */,
+				83D4C9C8201B0C1C008FD0CB /* AliyunPlayDataConfig.m */,
+				836273721FD189DB006BB29C /* encryptedApp.dat */,
+				8377E3681F414CC20084EF9B /* AppDelegate.h */,
+				8377E3691F414CC20084EF9B /* AppDelegate.m */,
+				8377E36B1F414CC20084EF9B /* ViewController.h */,
+				8377E36C1F414CC20084EF9B /* ViewController.m */,
+				CA7AA4E31F711ED400A004CD /* AddPlayView.h */,
+				CA7AA4E41F711ED400A004CD /* AddPlayView.m */,
+				838C56161FA1DB9D0092C448 /* Localizable.strings */,
+				83BFD7F1201AC47600202E44 /* AnswerRoom */,
+				8377E37F1F414F5A0084EF9B /* AliyunPlaySDK */,
+				8377E36E1F414CC20084EF9B /* Main.storyboard */,
+				8377E3711F414CC20084EF9B /* Assets.xcassets */,
+				8377E3731F414CC20084EF9B /* LaunchScreen.storyboard */,
+				8377E3761F414CC20084EF9B /* Info.plist */,
+				8377E3651F414CC20084EF9B /* Supporting Files */,
+			);
+			path = AliyunPlayerMediaDemo;
+			sourceTree = "<group>";
+		};
+		8377E3651F414CC20084EF9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8377E3661F414CC20084EF9B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8377E37C1F414CFD0084EF9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8334BBF41F4ADFE70028F9FC /* AliyunVodPlayerViewSDK.framework */,
+				8377E39A1F417DE00084EF9B /* libz.tbd */,
+				8377E3981F417DD60084EF9B /* libiconv.tbd */,
+				8377E3961F417DCF0084EF9B /* libstdc++.tbd */,
+				8377E3941F417DC30084EF9B /* libbz2.tbd */,
+				8377E3921F417DBB0084EF9B /* VideoToolbox.framework */,
+				8377E3901F417DB00084EF9B /* UIKit.framework */,
+				8377E38E1F417DAA0084EF9B /* MediaPlayer.framework */,
+				8377E38C1F417DA30084EF9B /* CoreGraphics.framework */,
+				8377E38A1F417D9B0084EF9B /* AudioToolbox.framework */,
+				8377E3881F417D930084EF9B /* Foundation.framework */,
+				8377E3861F417D8B0084EF9B /* AVFoundation.framework */,
+				2F184370CFD16C4CCD3A1258 /* libPods-AliyunPlayerMediaDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8377E37F1F414F5A0084EF9B /* AliyunPlaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				836888A11FFF670000558395 /* BasicPlayerUrlViewController.h */,
+				836888A91FFF670000558395 /* BasicPlayerUrlViewController.m */,
+				8368889F1FFF670000558395 /* Basic player */,
+				836888801FFF670000558395 /* Advanced player */,
+				836888BA1FFF677700558395 /* UI player */,
+				83D7A5191FB1B34A00B56F9E /* Debug tools demo */,
+				83D7A5161FB1B34A00B56F9E /* Copyright */,
+				836888BE1FFF681A00558395 /* Until */,
+			);
+			name = AliyunPlaySDK;
+			sourceTree = "<group>";
+		};
+		83BFD7F1201AC47600202E44 /* AnswerRoom */ = {
+			isa = PBXGroup;
+			children = (
+				83A69377202C128C0003D77A /* question.m4a */,
+				83A69379202C128C0003D77A /* results.m4a */,
+				83A6937A202C128C0003D77A /* right.m4a */,
+				83A69378202C128C0003D77A /* tap.m4a */,
+				83BFD818201AC70A00202E44 /* model */,
+				83BFD817201AC6F100202E44 /* view */,
+				83BFD816201AC6D600202E44 /* control */,
+			);
+			path = AnswerRoom;
+			sourceTree = "<group>";
+		};
+		83BFD816201AC6D600202E44 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				83BFD7F4201AC47600202E44 /* AliyunAnswerViewController.h */,
+				83BFD802201AC47600202E44 /* AliyunAnswerViewController.m */,
+				83BFD7FF201AC47600202E44 /* AliyunAnswerPlayerViewController.h */,
+				83BFD7F7201AC47600202E44 /* AliyunAnswerPlayerViewController.m */,
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		83BFD817201AC6F100202E44 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				83A69385202C16AB0003D77A /* AliyunAnswerHeader.h */,
+				83BFD7F8201AC47600202E44 /* AliyunAnswerView.h */,
+				83BFD805201AC47600202E44 /* AliyunAnswerView.m */,
+				83BFD804201AC47600202E44 /* AliyunAnswerLogView.h */,
+				83BFD7F9201AC47600202E44 /* AliyunAnswerLogView.m */,
+				83BFD7FA201AC47600202E44 /* AliyunAnswerCell.h */,
+				83BFD809201AC47600202E44 /* AliyunAnswerCell.m */,
+				83A6937F202C15C30003D77A /* AliyunResultView.h */,
+				83A69380202C15C30003D77A /* AliyunResultView.m */,
+				83A69382202C16740003D77A /* CATCurveProgressView.h */,
+				83A69383202C16740003D77A /* CATCurveProgressView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		83BFD818201AC70A00202E44 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				83BFD7F2201AC47600202E44 /* AliyunLiveQuestionManager.h */,
+				83BFD7FE201AC47600202E44 /* AliyunLiveQuestionManager.m */,
+				83BFD803201AC47600202E44 /* AliyunQuestionModel.h */,
+				83BFD7F3201AC47600202E44 /* AliyunQuestionModel.m */,
+				83BFD801201AC47600202E44 /* AliyunQuestionReportModel.h */,
+				83BFD7F5201AC47600202E44 /* AliyunQuestionReportModel.m */,
+				83BFD7FB201AC47600202E44 /* AliyunOptionReportModel.h */,
+				83BFD807201AC47600202E44 /* AliyunOptionReportModel.m */,
+				83BFD806201AC47600202E44 /* AliyunReuqestManager.m */,
+				83BFD7FC201AC47600202E44 /* AliyunReuqestManager.h */,
+				83BFD7F6201AC47600202E44 /* AliyunLiveQuestionItem.h */,
+				83BFD800201AC47600202E44 /* AliyunLiveQuestionItem.m */,
+				83BFD7FD201AC47600202E44 /* AliyunLiveQuestion.h */,
+				83BFD808201AC47600202E44 /* AliyunLiveQuestion.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		83D7A5161FB1B34A00B56F9E /* Copyright */ = {
+			isa = PBXGroup;
+			children = (
+				83D7A52A1FB1B89400B56F9E /* license.txt */,
+				83D7A5281FB1B7B400B56F9E /* AliyunPlayerVodPlayCopyrightViewController.h */,
+				83D7A5271FB1B7B400B56F9E /* AliyunPlayerVodPlayCopyrightViewController.m */,
+			);
+			path = Copyright;
+			sourceTree = "<group>";
+		};
+		83D7A5191FB1B34A00B56F9E /* Debug tools demo */ = {
+			isa = PBXGroup;
+			children = (
+				838A20231F510B8F00A10842 /* ALiyunPlaySDKCheckToolViewController.h */,
+				838A20241F510B8F00A10842 /* ALiyunPlaySDKCheckToolViewController.m */,
+			);
+			path = "Debug tools demo";
+			sourceTree = "<group>";
+		};
+		B6CD4F760F6506FA958D3FCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B08AEA3730ACA8023097EBA7 /* Pods-AliyunPlayerMediaDemo.debug.xcconfig */,
+				592991DAEF917EEE388BEAE6 /* Pods-AliyunPlayerMediaDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		094B8F191F8DF5C900424A41 /* AliyunPlayerMediaDemo-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094B8F291F8DF5CA00424A41 /* Build configuration list for PBXNativeTarget "AliyunPlayerMediaDemo-Swift" */;
+			buildPhases = (
+				094B8F161F8DF5C900424A41 /* Sources */,
+				094B8F171F8DF5C900424A41 /* Frameworks */,
+				094B8F181F8DF5C900424A41 /* Resources */,
+				094B8F301F8DF5E300424A41 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AliyunPlayerMediaDemo-Swift";
+			productName = "AliyunPlayerMediaDemo-Swift";
+			productReference = 094B8F1A1F8DF5C900424A41 /* AliyunPlayerMediaDemo-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8377E3611F414CC20084EF9B /* AliyunPlayerMediaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8377E3791F414CC20084EF9B /* Build configuration list for PBXNativeTarget "AliyunPlayerMediaDemo" */;
+			buildPhases = (
+				D2BA21464D1FC37059E76AEF /* [CP] Check Pods Manifest.lock */,
+				8377E35E1F414CC20084EF9B /* Sources */,
+				8377E35F1F414CC20084EF9B /* Frameworks */,
+				8377E3601F414CC20084EF9B /* Resources */,
+				834D5AD51F42A3790036912A /* Embed Frameworks */,
+				54BFB3A36C20F3F918267E34 /* [CP] Embed Pods Frameworks */,
+				275CC4EEAD0491769D019323 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliyunPlayerMediaDemo;
+			productName = AliyunPlayerMediaDemo;
+			productReference = 8377E3621F414CC20084EF9B /* AliyunPlayerMediaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8377E35A1F414CC20084EF9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.alibaba.ALPlayerVodSDK;
+				TargetAttributes = {
+					094B8F191F8DF5C900424A41 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = 8344EU7J75;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					8377E3611F414CC20084EF9B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MTVUR2AQF9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8377E35D1F414CC20084EF9B /* Build configuration list for PBXProject "AliyunPlayerMediaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"zh-Hans",
+				en,
+			);
+			mainGroup = 8377E3591F414CC20084EF9B;
+			productRefGroup = 8377E3631F414CC20084EF9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8377E3611F414CC20084EF9B /* AliyunPlayerMediaDemo */,
+				094B8F191F8DF5C900424A41 /* AliyunPlayerMediaDemo-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		094B8F181F8DF5C900424A41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D999931FA30AFB00819C89 /* Localizable.strings in Resources */,
+				83BB23F61FA1C89600F3EF09 /* encryptedApp.dat in Resources */,
+				094B8F271F8DF5CA00424A41 /* LaunchScreen.storyboard in Resources */,
+				094B8F241F8DF5CA00424A41 /* Assets.xcassets in Resources */,
+				094B8F221F8DF5CA00424A41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8377E3601F414CC20084EF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A6937B202C128C0003D77A /* question.m4a in Resources */,
+				83A6937C202C128C0003D77A /* tap.m4a in Resources */,
+				83A6937D202C128C0003D77A /* results.m4a in Resources */,
+				83A6937E202C128C0003D77A /* right.m4a in Resources */,
+				831E08771FB93F8D0039EC52 /* AliyunLanguageSource.bundle in Resources */,
+				831E08781FB93F8D0039EC52 /* AliyunImageSource.bundle in Resources */,
+				8377E3751F414CC20084EF9B /* LaunchScreen.storyboard in Resources */,
+				838C56141FA1DB9D0092C448 /* Localizable.strings in Resources */,
+				83D7A52B1FB1B89400B56F9E /* license.txt in Resources */,
+				8377E3721F414CC20084EF9B /* Assets.xcassets in Resources */,
+				836273731FD189DB006BB29C /* encryptedApp.dat in Resources */,
+				8377E3701F414CC20084EF9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		275CC4EEAD0491769D019323 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AliyunPlayerMediaDemo/Pods-AliyunPlayerMediaDemo-resources.sh",
+				"${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_Expression.plist",
+				"${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_ExpressionImage.plist",
+				"${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_Expression.bundle",
+				"${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_Expression.bundle/gifexpression.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MLEmoji_Expression.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MLEmoji_ExpressionImage.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MLEmoji_Expression.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gifexpression.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AliyunPlayerMediaDemo/Pods-AliyunPlayerMediaDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54BFB3A36C20F3F918267E34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AliyunPlayerMediaDemo/Pods-AliyunPlayerMediaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2BA21464D1FC37059E76AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AliyunPlayerMediaDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094B8F161F8DF5C900424A41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F511371F91F06400A80C7A /* AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.swift in Sources */,
+				09F511351F91E96A00A80C7A /* AliyunPlaySDKDemoFullScreenScrollViewController.swift in Sources */,
+				094B8F461F8F4B9F00424A41 /* ALiyunPlaySDKCheckToolViewController.swift in Sources */,
+				09F5112E1F91B79500A80C7A /* AliyunPlaySDKListsAutoViewController.swift in Sources */,
+				09EC7C051F97802200FBF6A8 /* DownloadListTableViewCell.swift in Sources */,
+				09EC7C031F9623CC00FBF6A8 /* AddDownloadView.swift in Sources */,
+				094B8F1D1F8DF5CA00424A41 /* AppDelegate.swift in Sources */,
+				094B8F3E1F8DFF0500424A41 /* VideoInfoInputViewController.swift in Sources */,
+				09FAB1B31F90A009002C2FE5 /* AliyunPlayMessageShowView.swift in Sources */,
+				09EC7C011F961ECF00FBF6A8 /* DownloadViewController.swift in Sources */,
+				09EC7BF71F9210C600FBF6A8 /* AliyunPlayerMediaUIDemoViewController.swift in Sources */,
+				094B8F401F8E103700424A41 /* BasicFunctionDemoViewController.swift in Sources */,
+				094B8F421F8E357500424A41 /* AliyunConstant.swift in Sources */,
+				09EC7BF51F920F5600FBF6A8 /* BaseTableViewController.swift in Sources */,
+				09F511321F91D44100A80C7A /* AliyunPlayerHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8377E35E1F414CC20084EF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D32E90F205EA30700769395 /* AvatarBarrageView.m in Sources */,
+				836888AE1FFF670000558395 /* AddDownloadView.m in Sources */,
+				836888B11FFF670000558395 /* AdvancedPlayerViewController.m in Sources */,
+				83BFD80A201AC47600202E44 /* AliyunQuestionModel.m in Sources */,
+				83A69384202C16750003D77A /* CATCurveProgressView.m in Sources */,
+				836888AF1FFF670000558395 /* DownloadListTableViewCell.m in Sources */,
+				836888CA1FFF681A00558395 /* Until.m in Sources */,
+				836888B41FFF670000558395 /* AliyunPlayMessageShowView.m in Sources */,
+				83BFD812201AC47600202E44 /* AliyunReuqestManager.m in Sources */,
+				83BFD815201AC47600202E44 /* AliyunAnswerCell.m in Sources */,
+				CA7AA4E51F711ED400A004CD /* AddPlayView.m in Sources */,
+				83BFD814201AC47600202E44 /* AliyunLiveQuestion.m in Sources */,
+				7D32E911205EA30700769395 /* UIImage+Barrage.m in Sources */,
+				836888BD1FFF677700558395 /* AliyunPlayerMediaUIDemoViewController.m in Sources */,
+				7D32E910205EA30700769395 /* NSSafeObject.m in Sources */,
+				83BFD810201AC47600202E44 /* AliyunAnswerViewController.m in Sources */,
+				8377E36D1F414CC20084EF9B /* ViewController.m in Sources */,
+				836888AD1FFF670000558395 /* DownloadViewController.m in Sources */,
+				836888B21FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollCollectionViewCell.m in Sources */,
+				83BFD80B201AC47600202E44 /* AliyunQuestionReportModel.m in Sources */,
+				836888B71FFF670000558395 /* BasicPlayerViewController.m in Sources */,
+				836888C71FFF681A00558395 /* Reachability.m in Sources */,
+				8377E36A1F414CC20084EF9B /* AppDelegate.m in Sources */,
+				83D4C9C9201B0C1C008FD0CB /* AliyunPlayDataConfig.m in Sources */,
+				83BFD80D201AC47600202E44 /* AliyunAnswerLogView.m in Sources */,
+				836888B01FFF670000558395 /* AliyunContinuousViewController.m in Sources */,
+				836888AC1FFF670000558395 /* AliyunTimeShiftLiveViewController.m in Sources */,
+				836888AA1FFF670000558395 /* AliyunPlaySDKListsAutoViewController.m in Sources */,
+				83BFD80C201AC47600202E44 /* AliyunAnswerPlayerViewController.m in Sources */,
+				836888B51FFF670000558395 /* AliyunPlaySDKDemoOneViewController.m in Sources */,
+				83BFD80E201AC47600202E44 /* AliyunLiveQuestionManager.m in Sources */,
+				838A20251F510B8F00A10842 /* ALiyunPlaySDKCheckToolViewController.m in Sources */,
+				83D7A5291FB1B7B400B56F9E /* AliyunPlayerVodPlayCopyrightViewController.m in Sources */,
+				83BFD80F201AC47600202E44 /* AliyunLiveQuestionItem.m in Sources */,
+				83BFD811201AC47600202E44 /* AliyunAnswerView.m in Sources */,
+				83BFD813201AC47600202E44 /* AliyunOptionReportModel.m in Sources */,
+				836888C91FFF681A00558395 /* UIView+Layout.m in Sources */,
+				836888B31FFF670000558395 /* AliyunPlaySDKDemoFullScreenScrollViewController.m in Sources */,
+				836888B61FFF670000558395 /* AliyunPlayerLivePlayViewController.m in Sources */,
+				836888B81FFF670000558395 /* AliyunPlayerVodPlayViewController.m in Sources */,
+				836888AB1FFF670000558395 /* AliyunPlaySDKListsCollectionViewCell.m in Sources */,
+				83A69381202C15C30003D77A /* AliyunResultView.m in Sources */,
+				7D32E912205EA30700769395 /* FlowerBarrageSprite.m in Sources */,
+				836888B91FFF670000558395 /* BasicPlayerUrlViewController.m in Sources */,
+				8377E3671F414CC20084EF9B /* main.m in Sources */,
+				83B9E7D32017176000A5E678 /* UIAliyunSlider.m in Sources */,
+				836888C81FFF681A00558395 /* UINavigationController+autorotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		094B8F201F8DF5CA00424A41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094B8F211F8DF5CA00424A41 /* Base */,
+				838C56091FA1D9E50092C448 /* en */,
+				838C560D1FA1D9EB0092C448 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		094B8F251F8DF5CA00424A41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094B8F261F8DF5CA00424A41 /* Base */,
+				838C560A1FA1D9E50092C448 /* en */,
+				838C560E1FA1D9EB0092C448 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8377E36E1F414CC20084EF9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8377E36F1F414CC20084EF9B /* Base */,
+				83EAFB7E1FCFF33A00D4C263 /* zh-Hans */,
+				83EAFB801FCFF34000D4C263 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8377E3731F414CC20084EF9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8377E3741F414CC20084EF9B /* Base */,
+				838C56081FA1D9E50092C448 /* en */,
+				838C560C1FA1D9EB0092C448 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		838C56161FA1DB9D0092C448 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838C56151FA1DB9D0092C448 /* en */,
+				838C56171FA1DB9F0092C448 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		83D999951FA30AFB00819C89 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D999941FA30AFB00819C89 /* en */,
+				83D999961FA30AFC00819C89 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		094B8F2A1F8DF5CA00424A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8344EU7J75;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "AliyunPlayerMediaDemo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.ALPlayerVodSDK.AliyunPlayerMediaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "AliyunPlayerMediaDemo-Swift/AliyunPlayerMediaDemo-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		094B8F2B1F8DF5CA00424A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8344EU7J75;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "AliyunPlayerMediaDemo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.ALPlayerVodSDK.AliyunPlayerMediaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AliyunPlayerMediaDemo-Swift/AliyunPlayerMediaDemo-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8377E3771F414CC20084EF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = default;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8377E3781F414CC20084EF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8377E37A1F414CC20084EF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08AEA3730ACA8023097EBA7 /* Pods-AliyunPlayerMediaDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MTVUR2AQF9;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AliyunPlayerMediaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LLVM_LTO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.ALPlayerVodSDK.AliyunPlayerMediaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		8377E37B1F414CC20084EF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592991DAEF917EEE388BEAE6 /* Pods-AliyunPlayerMediaDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MTVUR2AQF9;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
+				GCC_OPTIMIZATION_LEVEL = 1;
+				INFOPLIST_FILE = AliyunPlayerMediaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LLVM_LTO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.ALPlayerVodSDK.AliyunPlayerMediaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		094B8F291F8DF5CA00424A41 /* Build configuration list for PBXNativeTarget "AliyunPlayerMediaDemo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094B8F2A1F8DF5CA00424A41 /* Debug */,
+				094B8F2B1F8DF5CA00424A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8377E35D1F414CC20084EF9B /* Build configuration list for PBXProject "AliyunPlayerMediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8377E3771F414CC20084EF9B /* Debug */,
+				8377E3781F414CC20084EF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8377E3791F414CC20084EF9B /* Build configuration list for PBXNativeTarget "AliyunPlayerMediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8377E37A1F414CC20084EF9B /* Debug */,
+				8377E37B1F414CC20084EF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8377E35A1F414CC20084EF9B /* Project object */;
+}
